@@ -23,15 +23,17 @@ class PumpValveControl(QtWidgets.QWidget):
                 '10 ml BD':'14.60',
                 '30ml BD':'21.59'}
    
-    def __init__(self, ser, pumps, valves, prog_dict):
+    def __init__(self, ser, pumpValves, prog_dict):
         super(PumpValveControl, self).__init__()
         self._ser = ser
-        self._pumps = pumps
-        self._valves = valves
-        self._pv_units = []
-        for j,(p,v) in enumerate(zip(pumps,valves)):
-            self._pv_units.append(PumpValve(v, p, j))
-
+        #todo: are pump and valve objects accessed in this code
+        #todo: is ser needed here it can it be accessed through pumps objects
+        #
+        #self._pumps = pumps
+        #self._valves = valves
+        self._pv_units = pumpValves
+        # for j,(p,v) in enumerate(zip(pumps,valves)):
+        #     self._pv_units.append(PumpValve(v, p, j))
 
         self._prog_dict = prog_dict
         self._update_status_time = 3
@@ -257,6 +259,7 @@ class PumpValveControl(QtWidgets.QWidget):
         self.t.start()
 
     def set_program(self, i):
+        #todo: verify
         self._prog[i] = self.mapper.mapping(i).currentText()
         #self._prog_dict[]
         print('just change the program of pump {} to {}'.format(i,self._prog[i]))
@@ -271,6 +274,8 @@ class PumpValveControl(QtWidgets.QWidget):
         self._vol[i] = self.mappervol.mapping(i).currentText()
 
     def run_pump_prog(self, i):
+        #Todo: maine todo is basically rewrite this
+
         # temporary thing. this thing should actually run the program
         # still need to add check if volume written
         entry_params = {"port": self._port[i], "rate": self.rates[i].text(),"vol": self.vol[i].text(), "dir": self._dir[i]}

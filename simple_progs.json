@@ -1,0 +1,213 @@
+{"programs": [
+  { "name":  "erin pulse",
+    "type" : "pumpOnly",
+    "total volume": 1000.0,
+    "flow rate" : 5.0,
+    "pulse rate":  100.0,
+    "pulse duration":  0.5,
+    "pulse frequency":  19.5
+  },
+  { "name":  "sk low flow",
+    "type" : "pumpOnly",
+    "total time": 1000,
+    "flow rate" : 5.0,
+    "pulse rate":  100.0,
+    "pulse duration":  0.5,
+    "pulse frequency":  29.5
+  },
+   { "name":  "pulse no w",
+    "type" : "pumpOnly",
+    "total volume": 1000.0,
+    "flow rate" : 5.0,
+    "pulse rate":  100.0,
+    "pulse duration":  0.5,
+    "pulse frequency":  19.5
+  },
+   { "name":  "pulse w/ w",
+    "type" : "pumpOnly",
+    "total volume": 10.0,
+    "flow rate" : 10.0,
+    "pulse rate":  100.0,
+    "pulse duration":  10.0,
+    "pulse frequency":  30.0
+  },
+   { "name":  "wash",
+    "type" : "pumpOnly",
+    "total volume": 10.0,
+    "flow rate" : 10.0,
+    "pulse rate":  100.0,
+    "pulse duration":  10.0,
+    "pulse frequency":  30.0
+  },
+   { "name":  "sequence",
+    "type" : "pumpValve",
+     "Phases": [{"port": 4,"rate": 300,"vol": 150,"dir":"Withdraw"},
+       {"port": 6,"rate": 100,"vol": 50,"dir":"Infuse"},
+       {"port": 6,"rate": 5,"vol": 80,"dir":"Infuse"},
+     {"port": 7,"rate": 100,"vol": 25,"dir":"Infuse"}],
+     "Loops": 24
+  },
+   { "name":  "fill port 4x300",
+    "type" : "pumpValve",
+     "Phases": [{"port": -1,"rate": 800,"vol": 300,"dir":"Withdraw"},
+       {"port": 6,"rate": 200,"vol": 300,"dir":"Infuse"},
+       {"port": 7,"rate": 800,"vol": 50,"dir":"Infuse"}],
+     "Loops": 4
+  },
+   { "name":  "Pull bleach wash",
+    "type" : "pumpValve",
+     "Phases": [{"port": 3,"rate": 800,"vol": 9000,"dir":"Withdraw"},
+       {"port": 4,"rate": 800,"vol": 2000,"dir":"Infuse"},
+       {"port": 6,"rate": 800,"vol": 2000,"dir":"Infuse"},
+       {"port": 8,"rate": 800,"vol": 2000,"dir":"Infuse"},
+       {"port": 1,"rate": 800,"vol": 2000,"dir":"Infuse"}],
+     "Loops": 1
+  },
+   { "name":  "prime port",
+    "type" : "pumpValve",
+     "Phases": [{"port": -1,"rate": 800,"vol": 300,"dir":"Withdraw"},
+       {"port": 7,"rate": 800,"vol": 400,"dir":"Infuse"},
+       {"port": 1,"rate": 800,"vol": 100,"dir":"Withdraw"}],
+     "Loops": 3
+  },
+   { "name":  "dir vol rat all ports",
+    "type" : "pumpValve",
+     "Phases": [{"port": 1,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 2,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 3,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 4,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 5,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 6,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 7,"rate": -1,"vol": -1,"dir":"Entry"},
+       {"port": 8,"rate": -1,"vol": -1,"dir":"Entry"}],
+     "Loops": 1
+  },
+   { "name":  "twoPulseType",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "wash_7_port",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "Pluronic_4d",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "Pluronic_4d_p6",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "p_4d_op50",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "p_2d_op50",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "S_wash_4d",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "op50flow",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "op50flow_16f_200p",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "op50flow_p6",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "op50",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "two_bact_flow",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "one_bact_flow",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "one_bact_switch_wdr_sync",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "one_bact_wdr_flow_sync",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "one_bact_wdr_flow_sync_s2",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "one_bact_wdr_flow",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "wdr_prime_8ports",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "wdr_2_bact_2_dev",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "wdr_1_bact_4_dev",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "two_bact_flow_wash",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "two_bact_simp",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "no_valve_2d",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "jub39_r_switch_g",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "Overnight",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "Overnight",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "matt420",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "two_bact_flow_sync_s2",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "one_bact_switch_wdr_sync_87",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
+   { "name":  "prog_from_json1",
+    "type" : "python code",
+     "Params" : {"file_path":"alternate_1h_2species_json1.json" }
+  },
+   { "name":  "prog_from_json2",
+    "type" : "python code",
+     "Params" : {"file_path":"simul_2species_json2.json" }
+  },
+   { "name":  "prog_from_json3",
+    "type" : "python code",
+     "Params" : {"file_path":"sequential_2species_json2.json" }
+  }
+ ]}

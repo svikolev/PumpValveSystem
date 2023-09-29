@@ -1,0 +1,12 @@
+{"PumpCOM" : "COM11",
+  "ValveCOM" : 5,
+  "NumPumps": 3,
+  "NumValves": 3,
+  "Pumps":[{"address": 6,"diameter": 14.3,"rate-units" : "UM", "vol-units" : "UL"},
+    {"address": 0,"diameter": 14.3,"rate-units" : "UM", "vol-units" : "UL"},
+    {"address": 3,"diameter": 14.3,"rate-units" : "UM", "vol-units" : "UL"}],
+  "Valves" : [{"pumpADR": 6,"ValveChannel": 1},
+    {"pumpADR": 0,"ValveChannel": 2},
+  {"pumpADR": 3,"ValveChannel": 3}],
+  "json_dir_name": "json_progs"
+}
