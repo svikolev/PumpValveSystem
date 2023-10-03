@@ -17,6 +17,9 @@ class PumpValve:
         self.current_phase = "not running seq"
         self.phaseTargetDispense = 0
 
+    def get_pump_obj(self):
+        return self.pump
+
     def moveToPort(self,port):
         cp = self.current_port
         """Moves valve to the port passed in, helper method for RunAtPort"""

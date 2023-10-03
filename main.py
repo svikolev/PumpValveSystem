@@ -80,7 +80,7 @@ def main_ui():
 
     ''' launch gui'''
     app = QtWidgets.QApplication(sys.argv)
-    ex = pvc.PumpValveControl(pser, PVunits, programs)
+    ex = pvc.PumpValveControl(PVunits, programs)
     ret = app.exec_()
     ex.t.cancel()
     sys.exit(ret)

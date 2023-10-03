@@ -23,11 +23,11 @@ class PumpValveControl(QtWidgets.QWidget):
                 '10 ml BD':'14.60',
                 '30ml BD':'21.59'}
    
-    def __init__(self, ser, pumpValves, prog_dict):
+    def __init__(self, pumpValves, prog_dict):
         super(PumpValveControl, self).__init__()
-        self._ser = ser
-        #todo: are pump and valve objects accessed in this code
-        #todo: is ser needed here it can it be accessed through pumps objects
+        #self._ser = ser
+        #todo: are pump and valve objects accessed in this code DONE
+        #todo: is ser needed here it can it be accessed through pumps objects DONE
         #
         #self._pumps = pumps
         #self._valves = valves
@@ -88,9 +88,9 @@ class PumpValveControl(QtWidgets.QWidget):
         self.run_man_btns = []
         self.stop_btns = []
 
-        self._prog = list(range(len(self._pumps)))
-        self._port = list(range(len(self._valves)))
-        self._dir = list(range(len(self._pumps)))
+        self._prog = list(range(len(self._pv_units))) #changed to pv unit
+        self._port = list(range(len(self._pv_units))) #changed to pv unit
+        self._dir = list(range(len(self._pv_units))) #changed to pv unit
 
         self._pump_lock = threading.Lock()
         self._valve_lock = threading.Lock()
@@ -250,7 +250,7 @@ class PumpValveControl(QtWidgets.QWidget):
         #self.setWindowFlags(self.windowFlags() | QtCore.Qt.WindowStaysOnTopHint) # always on top
         self.show()
 
-        serial_lock = threading.Lock()
+        #serial_lock = threading.Lock()
 
         #  launch the thread here
         ## This is the end, __init__
@@ -268,7 +268,7 @@ class PumpValveControl(QtWidgets.QWidget):
         self._pv_units[i].moveToPort(int(self._port[i]))
     def set_dir(self, i):
         self._dir[i] = self.dirmapper.mapping(i).currentText()
-        self._pumps[i]._direction = self._dir[i]
+        self._pv_units[i].get_pump_obj().setDirection(self._dir[i]) ## changed to pump_valve, after adding pumpvalve.set_dir
 
     def set_vol(self,i): # must be reset the run command to take effect
         self._vol[i] = self.mappervol.mapping(i).currentText()
@@ -285,36 +285,20 @@ class PumpValveControl(QtWidgets.QWidget):
         if self.run_btns[i].isChecked():
             if self.run_man_btns[i].isChecked():
                 self.run_man_btns[i].setChecked(False)
-                if self._pumps[i].getStatus() != 'halted':
-                    self._pumps[i].stop()
+                if self._pv_units[i].get_pump_obj().getStatus() != 'halted':
+                    self._pv_units[i].get_pump_obj().stop()
                 else:
                     print('pump halted but button is checked')
             print('starting program on unit {} '.format(i))
             # send seq of commands
-            if self._prog_dict[self._prog[i]]["type"] == "pumpValve":
+            if self._prog_dict[self._prog[i]]["type"] == "json_prog":
+                eval(prog_from_json1 +
+                     '(self._pv_units[i],self._prog_dict[self._prog[i]])')
+
+            elif self._prog_dict[self._prog[i]]["type"] == "pumpValve":
                 self._pv_units[i].runSequence(self._prog_dict[self._prog[i]], entry_params)
 
             elif self._prog_dict[self._prog[i]]["type"] == "pumpOnly":
-            #
-            # if self._prog[i] == 'sequence':
-            #     print("starting PV sequence")
-            #     self._pv_units[i].runSequence(self._prog_dict[self._prog[i]])
-            #
-            # if self._prog[i] == 'seq fill400':
-            #     print("starting PV2 sequence")
-            #     self._pv_units[i].runSequence(self._prog_dict[self._prog[i]])
-            #
-            # if self._prog[i] == 'Pull bleach wash':
-            #     print("starting wash sequence")
-            #     self._pv_units[i].runSequence(self._prog_dict[self._prog[i]])
-            #
-            # if self._prog[i] == 'prime port':
-            #     print("starting seq: {} {}".format(self._prog_dict[self._prog[i]],self._port[i]))
-            #     self._pv_units[i].runSequence(self._prog_dict[self._prog[i]], entry_params)
-            #
-            # if self._prog[i] == 'dir vol rat all ports':
-            #     print("starting seq: {}".format(self._prog[i]))
-            #     self._pv_units[i].runSequence(self._prog_dict[self._prog[i]], entry_params)
                 print('got to 1')
                 this_prog = self._prog_dict[self._prog[i]]
                 print('got to 2')
@@ -330,47 +314,41 @@ class PumpValveControl(QtWidgets.QWidget):
                     loops = round(int(str(self.vol[i].text()))/volploop) - 1
                     print('got to 4')
                     self._lock.acquire()
-                    self._pumps[i].sendCommand('PHN  1')
-                    self._pumps[i].sendCommand('FUN RAT')
-                    self._pumps[i].sendCommand('RAT {} {}'.format(this_prog['pulse rate'],'UM'))
-                    self._pumps[i].sendCommand('VOL {}'.format(this_prog['pulse rate'] * this_prog['pulse duration']))
-                    self._pumps[i].sendCommand('DIR INF')
+                    self._pv_units[i].get_pump_obj().sendCommand('PHN  1')
+
+                    self._pv_units[i].get_pump_obj().sendCommand('FUN RAT')
+                    self._pv_units[i].get_pump_obj().sendCommand('RAT {} {}'.format(this_prog['pulse rate'],'UM'))
+                    self._pv_units[i].get_pump_obj().sendCommand('VOL {}'.format(this_prog['pulse rate'] * this_prog['pulse duration']))
+                    self._pv_units[i].get_pump_obj().sendCommand('DIR INF')
                 #('phase 2')
 
-                    self._pumps[i].sendCommand('PHN  2')
-                    self._pumps[i].sendCommand('FUN RAT')
-                    self._pumps[i].sendCommand('RAT {} {}'.format(this_prog['flow rate'],'UM'))
-                    self._pumps[i].sendCommand('VOL {}'.format(this_prog['flow rate'] * this_prog['pulse frequency']))
-                    self._pumps[i].sendCommand('DIR INF')
+                    self._pv_units[i].get_pump_obj().sendCommand('PHN  2')
+                    self._pv_units[i].get_pump_obj().sendCommand('FUN RAT')
+                    self._pv_units[i].get_pump_obj().sendCommand('RAT {} {}'.format(this_prog['flow rate'],'UM'))
+                    self._pv_units[i].get_pump_obj().sendCommand('VOL {}'.format(this_prog['flow rate'] * this_prog['pulse frequency']))
+                    self._pv_units[i].get_pump_obj().sendCommand('DIR INF')
                 #print('phase 3')
 
-                    self._pumps[i].sendCommand('PHN  3')
-                    self._pumps[i].sendCommand('FUN LOP {}'.format(loops))
+                    self._pv_units[i].get_pump_obj().sendCommand('PHN  3')
+                    self._pv_units[i].get_pump_obj().sendCommand('FUN LOP {}'.format(loops))
                 #print('phase 4')
 
-                    self._pumps[i].sendCommand('PHN  4')
-                    self._pumps[i].sendCommand('FUN STP')
+                    self._pv_units[i].get_pump_obj().sendCommand('PHN  4')
+                    self._pv_units[i].get_pump_obj().sendCommand('FUN STP')
                     self._lock.release()
-                    self._pumps[i].run()
+                    self._pv_units[i].get_pump_obj().run()
 
             elif self._prog_dict[self._prog[i]]["type"] == "python code":
-                #getattr(self._pv_units[i], self._prog_dict[self._prog[i]]["name"])()
-                # test_script(self._pv_units[i],self._prog_dict[self._prog[i]]["Params"])
-                # print(self._prog_dict[self._prog[i]]["name"])
-                # #locals()[self._prog_dict[self._prog[i]]["name"]](self._pv_units[i],self._prog_dict[self._prog[i]]["Params"])
-                # print('got here')
-                #params = self._prog_dict[self._prog[i]]["Params"]
-                #_7_port_wash(self._pv_units[i], self._prog_dict[self._prog[i]]["Params"])
                 eval(self._prog_dict[self._prog[i]]["name"] + '(self._pv_units[i],self._prog_dict[self._prog[i]]["Params"])')
 
                 # this calls locals()['funcName'](paramsForFunc)
             else:
-                if self._pumps[i].getStatus() != 'halted':
-                    self._pumps[i].stop()
+                if self._pv_units[i].get_pump_obj().getStatus() != 'halted':
+                    self._pv_units[i].get_pump_obj().stop()
 
         else:
-            if self._pumps[i].getStatus() != 'halted':
-                self._pumps[i].stop()
+            if self._pv_units[i].get_pump_obj().getStatus() != 'halted':
+                self._pv_units[i].get_pump_obj().stop()
 
     def run_pump_manual(self, i): ## STILL NEED TO ADD: if there is not rate entered do nothing
         print('trying pump manual {} '.format(i))
@@ -381,17 +359,17 @@ class PumpValveControl(QtWidgets.QWidget):
                 print('run man pump {}'.format(i))
                 if self.run_btns[i].isChecked():
                     self.run_btns[i].setChecked(False)
-                if self._pumps[i].getStatus() != 'halted':
-                    self._pumps[i].stop()
+                if self._pv_units[i].get_pump_obj().getStatus() != 'halted':
+                    self._pv_units[i].get_pump_obj().stop()
                 rate = str(self.rates[i].text())
                 vol = str(self.vol[i].text())
                 print('rate is {}'.format(rate)) #str(self.rates[i].text())))
                 print('vol to dispense {}'.format(vol)) #str(self.vol[i].text())))
                 #self._valves[i].moveToPort(self._port[i])
-                self._pumps[i].singlePhaseProgram(rate,vol,self._dir[i])
+                self._pv_units[i].get_pump_obj().singlePhaseProgram(rate,vol,self._dir[i])
             else:
-                if self._pumps[i].getStatus() != 'halted':
-                    self._pumps[i].stop()
+                if self._pv_units[i].get_pump_obj().getStatus() != 'halted':
+                    self._pv_units[i].get_pump_obj().stop()
         except ValueError:
              self.error_state = 'volume  for pump {} must be a non zero int'.format(i)
              print('volume  for pump {} must be a non zero int'.format(i))
@@ -402,9 +380,9 @@ class PumpValveControl(QtWidgets.QWidget):
         print('Trying to stop pump {} '.format(i))
         self.run_btns[i].setChecked(False)
         self.run_man_btns[i].setChecked(False)
-        if self._pumps[i].getStatus() != 'halted' or self._pv_units[i].running_seq:
+        if self._pv_units[i].get_pump_obj().getStatus() != 'halted' or self._pv_units[i].running_seq:
             print('Stopping pump {} '.format(i))
-            self._pumps[i].stop()
+            self._pv_units[i].get_pump_obj().stop()
             if self._pv_units[i].running_seq:
                 self._pv_units[i].thread_kill.set()
             #self.run_btns[i].setChecked(False)
