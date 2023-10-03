@@ -70,7 +70,7 @@ def main_ui():
         if filename.endswith('.json'):
             file_path = os.path.join(main_config['json_dir_name'], filename)
             file_name_without_extension = os.path.splitext(filename)[0]
-            json_progs.append({'Name':file_name_without_extension,
+            json_progs.append({'name':file_name_without_extension,
                                "Type":"json_prog",
                                "path":file_path})
 
