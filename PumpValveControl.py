@@ -261,6 +261,7 @@ class PumpValveControl(QtWidgets.QWidget):
     def set_program(self, i):
         #todo: verify
         self._prog[i] = self.mapper.mapping(i).currentText()
+        print(self._prog_dict[self._prog[i]])
         #self._prog_dict[]
         print('just change the program of pump {} to {}'.format(i,self._prog[i]))
     def set_port(self,i):
@@ -292,6 +293,7 @@ class PumpValveControl(QtWidgets.QWidget):
             print('starting program on unit {} '.format(i))
             # send seq of commands
             if self._prog_dict[self._prog[i]]["type"] == "json_prog":
+                print(self._prog_dict[self._prog[i]])
                 eval(prog_from_json1 +
                      '(self._pv_units[i],self._prog_dict[self._prog[i]])')
 

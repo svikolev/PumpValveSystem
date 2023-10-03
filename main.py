@@ -61,7 +61,7 @@ def main_ui():
     #simple_prog = []
     with open("simple_progs.json", "r") as json_file:
         data = json.load(json_file)
-    simple_prog = data.get("Programs", [])
+    simple_prog = data.get("programs", [])
     #programs = {x['name']: x for x in prog_config['programs']}
 
     '''get json programs'''
