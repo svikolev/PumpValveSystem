@@ -3,7 +3,7 @@
     "sequence_steps": [
         {
             "type": "make_schedule",
-            "file_name": "C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule",
+            "file_name": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_schedules\\wash_schedule",
             "cycle_times": [
                 59.8,
                 67.28,
@@ -18,6 +18,11 @@
                 67.28,
                 67.28
             ]
+        },
+        {
+            "type": "notify",
+            "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\jupyter_com_pumps",
+            "message": "testing_com_@_t0"
         },
         {
             "type": "pvflow",

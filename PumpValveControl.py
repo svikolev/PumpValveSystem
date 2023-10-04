@@ -292,10 +292,10 @@ class PumpValveControl(QtWidgets.QWidget):
                     print('pump halted but button is checked')
             print('starting program on unit {} '.format(i))
             # send seq of commands
+            print('prog type: {}'.format(self._prog_dict[self._prog[i]]["type"]))
             if self._prog_dict[self._prog[i]]["type"] == "json_prog":
                 print(self._prog_dict[self._prog[i]])
-                eval(prog_from_json1 +
-                     '(self._pv_units[i],self._prog_dict[self._prog[i]])')
+                eval('prog_from_json1' + '(self._pv_units[i],self._prog_dict[self._prog[i]])')
 
             elif self._prog_dict[self._prog[i]]["type"] == "pumpValve":
                 self._pv_units[i].runSequence(self._prog_dict[self._prog[i]], entry_params)
@@ -341,9 +341,10 @@ class PumpValveControl(QtWidgets.QWidget):
                     self._pv_units[i].get_pump_obj().run()
 
             elif self._prog_dict[self._prog[i]]["type"] == "python code":
+                # todo: is there better way to do this? here i am trying to call a function using its name in string form, retievef from the list of strings of thre names of the functions
+                # this calls locals()['funcName'](paramsForFunc)
                 eval(self._prog_dict[self._prog[i]]["name"] + '(self._pv_units[i],self._prog_dict[self._prog[i]]["Params"])')
 
-                # this calls locals()['funcName'](paramsForFunc)
             else:
                 if self._pv_units[i].get_pump_obj().getStatus() != 'halted':
                     self._pv_units[i].get_pump_obj().stop()

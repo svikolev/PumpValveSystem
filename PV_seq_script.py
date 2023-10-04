@@ -1,6 +1,8 @@
 import threading
 import datetime
 
+import shutil
+import os
 import json
 import math
 
@@ -1713,7 +1715,7 @@ def jub39_r_switch_g(PV,params):
     PV.k.start()
 
 def prog_from_json1(PV,params):
-    print('got to jsonprog 1')
+
     """there a re 3 types of steps.
     'make_schedule': will read the list of cycle times, note the current time and make a file with the schedule
         for each cycle given the current start time.
@@ -1725,17 +1727,53 @@ def prog_from_json1(PV,params):
         log_fname = 'pump_{}_prog_log.txt'.format(_PV.pvADR)
         with open(log_fname, 'a') as file:
             file.write('{} {}\n'.format(datetime.datetime.now(),step_dict))
+
         if step_dict['type'] == 'make_schedule':
+            sched_dir = "pump_schedules"
+            fname = 'wash_schedule_{}.txt'.format(_PV.pvADR)
+            source_path = os.path.join(sched_dir, fname)
+            if os.path.exists(source_path):
+                creation_time = datetime.datetime.fromtimestamp(os.path.getctime(source_path))
+                timestamp = creation_time.strftime('%Y%m%d%H%M%S')
+                new_file_name = f'{os.path.splitext(fname)[0]}_{timestamp}.txt'
+                destination_path = os.path.join(sched_dir,'old_schedules', new_file_name)
+                os.rename(source_path, os.path.join(sched_dir, new_file_name))
+                shutil.move(os.path.join(sched_dir, new_file_name), destination_path)
+                print(
+                    f"File '{fname}' has been moved to '{destination_path}/{new_file_name}'")
+            else:
+                print(f"File '{fname}' does not exist in the source directory '{sched_dir}'.")
+
             now = datetime.datetime.now()
             for delta_t in step_dict['cycle_times']:
                 now = now + datetime.timedelta(minutes = float(delta_t))
-                fname = '{}_{}.txt'.format(step_dict['file_name'],_PV.pvADR)
-                with open(fname, 'a') as file:
+                fname = 'wash_schedule_{}.txt'.format(_PV.pvADR)
+                #fname = '{}_{}.txt'.format(step_dict['file_name'],_PV.pvADR)
+                with open(os.path.join(sched_dir,fname), 'a') as file:
                     file.write('{} \n'.format(now))
+
+            com_dir = "pump_coms"
+            fname = 'jupyter_com_pumps_{}.txt'.format(_PV.pvADR)
+            source_path = os.path.join(com_dir, fname)
+            if os.path.exists(source_path):
+                creation_time = datetime.datetime.fromtimestamp(os.path.getctime(source_path))
+                timestamp = creation_time.strftime('%Y%m%d%H%M%S')
+                new_file_name = f'{os.path.splitext(fname)[0]}_{timestamp}.txt'
+                destination_path = os.path.join(com_dir, 'old_coms', new_file_name)
+                os.rename(source_path, os.path.join(com_dir, new_file_name))
+                shutil.move(os.path.join(com_dir, new_file_name), destination_path)
+                print(
+                    f"File '{fname}' has been moved to '{destination_path}/{new_file_name}'")
+            else:
+                print(f"File '{fname}' does not exist in the source directory '{com_dir}'.")
+
         elif step_dict['type'] == 'notify':
-            fname = '{}_{}.txt'.format(step_dict['com_file'],_PV.pvADR)
-            with open(fname, 'a') as file:
+            #fname = '{}_{}.txt'.format(step_dict['com_file'],_PV.pvADR)
+            com_dir = "pump_coms"
+            fname = 'jupyter_com_pumps_{}.txt'.format(_PV.pvADR)
+            with open(os.path.join(com_dir,fname), 'a') as file:
                 file.write('{} notify_step: {}\n'.format(datetime.datetime.now(),step_dict['message']))
+
         elif step_dict['type'] == 'pvflow':
             _PV.RunAtPort(port = step_dict['p'], rat = step_dict['r'], vol = step_dict['v'], direction = step_dict['d'])
             expect_time = math.ceil(int(step_dict['v']) / int(step_dict['r']) * 60) +int(step_dict['post_wait'])

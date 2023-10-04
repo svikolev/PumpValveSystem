@@ -1,0 +1,12 @@
+2023-10-04 15:39:26.285704 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule', 'cycle_times': [59.8, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28]}
+2023-10-04 15:39:26.394327 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 150, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-04 17:07:04.065209 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_schedules\\wash_schedule', 'cycle_times': [59.8, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28]}
+2023-10-04 17:07:04.180281 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 150, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-04 17:10:38.657843 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_schedules\\wash_schedule', 'cycle_times': [59.8, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28]}
+2023-10-04 17:11:50.849724 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_schedules\\wash_schedule', 'cycle_times': [59.8, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28]}
+2023-10-04 17:11:50.958348 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 150, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-04 17:14:17.754257 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_schedules\\wash_schedule', 'cycle_times': [59.8, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28]}
+2023-10-04 17:14:17.876273 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 150, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-04 17:30:43.674742 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_schedules\\wash_schedule', 'cycle_times': [59.8, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28, 67.28]}
+2023-10-04 17:30:43.786838 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\jupyter_com_pumps', 'message': 'testing_com_@_t0'}
+2023-10-04 17:30:43.894471 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 150, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
