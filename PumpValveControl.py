@@ -406,7 +406,7 @@ class PumpValveControl(QtWidgets.QWidget):
                     self.currflow[i].setText(um.pump.getRate())
                 self.ports_pulldown[i].setCurrentText(str(um.valve.current_port))
                 self.voldis[i].setText(um.pump.getDispensed())
-                self.unitPhase[i].setText(str(um.current_phase))
+                self.unitPhase[i].setText(str(um.current_phase)) #todo: add text from phase description
                 self.unitPhaseVolRemainder[i].setText("V remain"+str(int(um.phaseTargetDispense-float(um.pump.getDispensed(units = False)))))
 
             else:

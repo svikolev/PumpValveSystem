@@ -1724,6 +1724,7 @@ def prog_from_json1(PV,params):
     PV.running_seq = True
 
     def runStep_threadCheck(_PV,step_dict):
+        #todo: add logging folder and same system for keeping/moving files to old folder
         log_fname = 'pump_{}_prog_log.txt'.format(_PV.pvADR)
         with open(log_fname, 'a') as file:
             file.write('{} {}\n'.format(datetime.datetime.now(),step_dict))
@@ -1751,7 +1752,7 @@ def prog_from_json1(PV,params):
                 #fname = '{}_{}.txt'.format(step_dict['file_name'],_PV.pvADR)
                 with open(os.path.join(sched_dir,fname), 'a') as file:
                     file.write('{} \n'.format(now))
-
+            #todo: create empty file
             com_dir = "pump_coms"
             fname = 'jupyter_com_pumps_{}.txt'.format(_PV.pvADR)
             source_path = os.path.join(com_dir, fname)
