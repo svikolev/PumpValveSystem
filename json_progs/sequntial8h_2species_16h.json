@@ -1,5 +1,5 @@
 {
-    "name": "sequntial_2species_8h.json",
+    "name": "sequntial8h_2species_16h.json",
     "sequence_steps": [
         {
             "type": "make_schedule",

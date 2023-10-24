@@ -1,5 +1,5 @@
 {
-    "name": "sequntial_2species_8h.json",
+    "name": "alter2h_2species_16h.json",
     "sequence_steps": [
         {
             "type": "make_schedule",
@@ -771,12 +771,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -834,12 +834,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -902,12 +902,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -965,12 +965,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -1033,12 +1033,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -1128,12 +1128,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -1191,12 +1191,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -1259,12 +1259,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -1322,12 +1322,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -1390,12 +1390,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2199,12 +2199,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2262,12 +2262,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2330,12 +2330,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2393,12 +2393,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2461,12 +2461,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2556,12 +2556,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2619,12 +2619,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2687,12 +2687,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2750,12 +2750,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2818,12 +2818,12 @@
         },
         {
             "type": "pvflow",
-            "p": 3,
+            "p": 4,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p3"
+            "status": "1port injection flow, step1/7, withdraw p4"
         },
         {
             "type": "pvflow",
@@ -2967,12 +2967,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3030,12 +3030,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3098,12 +3098,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3161,12 +3161,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3229,12 +3229,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3324,12 +3324,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3387,12 +3387,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3455,12 +3455,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3518,12 +3518,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -3586,12 +3586,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4395,12 +4395,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4458,12 +4458,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4526,12 +4526,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4589,12 +4589,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4657,12 +4657,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4752,12 +4752,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4815,12 +4815,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4883,12 +4883,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -4946,12 +4946,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",
@@ -5014,12 +5014,12 @@
         },
         {
             "type": "pvflow",
-            "p": 4,
+            "p": 3,
             "r": 300,
             "v": 300,
             "d": "Withdraw",
             "post_wait": 4,
-            "status": "1port injection flow, step1/7, withdraw p4"
+            "status": "1port injection flow, step1/7, withdraw p3"
         },
         {
             "type": "pvflow",

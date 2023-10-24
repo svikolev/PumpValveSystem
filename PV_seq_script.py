@@ -1752,7 +1752,7 @@ def prog_from_json1(PV,params):
                 #fname = '{}_{}.txt'.format(step_dict['file_name'],_PV.pvADR)
                 with open(os.path.join(sched_dir,fname), 'a') as file:
                     file.write('{} \n'.format(now))
-            #todo: create empty file
+            #todo: create empty file for the pump coms after moving the old
             com_dir = "pump_coms"
             fname = 'jupyter_com_pumps_{}.txt'.format(_PV.pvADR)
             source_path = os.path.join(com_dir, fname)

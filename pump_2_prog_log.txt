@@ -1,0 +1,663 @@
+2023-10-20 03:19:13.258569 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule', 'cycle_times': [13.58, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 26.72, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94, 19.0, 23.68, 21.94]}
+2023-10-20 03:19:13.403247 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 03:20:21.874769 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 03:21:00.409628 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 03:25:06.124335 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 03:25:41.556950 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 03:29:47.251161 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 03:30:25.620048 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 03:31:03.983276 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 03:32:12.443478 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 03:32:50.916553 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 0'}
+2023-10-20 03:32:51.023338 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 03:36:56.582142 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 03:37:31.930819 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 03:41:37.270140 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 03:42:15.814944 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 03:42:54.465711 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 03:44:03.065276 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 03:44:41.703677 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 03:48:47.303968 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 03:49:22.653545 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 03:53:28.009313 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 03:54:06.387633 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 03:54:44.889221 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 03:55:53.404627 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 03:56:31.768146 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 1'}
+2023-10-20 03:56:31.875778 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 04:00:37.230539 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 04:01:12.979714 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 04:05:18.658019 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 04:05:57.190245 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 04:06:35.553451 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 04:07:44.160635 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 04:08:22.523791 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 04:12:27.862945 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 04:13:03.212342 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 04:17:09.243353 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 04:17:47.606476 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 04:18:27.061265 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 2'}
+2023-10-20 04:18:27.168896 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 04:20:05.529233 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 04:23:11.255760 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 04:23:53.617224 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 04:25:01.993535 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 04:25:40.541311 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 04:29:46.219156 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 04:30:21.568969 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 04:34:27.138489 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 04:35:05.670715 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 04:35:44.233693 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 04:36:52.718343 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 04:37:31.373505 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 3'}
+2023-10-20 04:37:31.481137 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 04:41:36.836489 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 04:42:12.554941 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 04:46:17.939185 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 04:46:56.440651 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 04:47:34.797198 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 04:48:43.260948 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 04:49:21.804856 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 04:53:27.547000 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 04:54:03.442793 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 04:58:09.134301 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 04:58:47.517392 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 04:59:25.880765 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 05:00:34.459087 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 05:01:12.945477 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 4'}
+2023-10-20 05:01:13.051533 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 05:05:18.753808 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 05:05:54.117873 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 05:09:59.515725 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 05:10:38.118267 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 05:11:16.483407 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 05:12:24.926090 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 05:13:03.415758 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 05:17:09.167055 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 05:17:44.958417 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 05:21:50.663729 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 05:22:29.303504 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 05:23:07.808741 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 5'}
+2023-10-20 05:23:07.915639 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 05:24:46.285983 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 05:27:51.624202 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 05:28:33.993149 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 05:29:42.437223 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 05:30:20.943301 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 05:34:26.766783 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 05:35:02.573725 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 05:39:08.273505 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 05:39:46.937635 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 05:40:25.581623 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 05:41:34.192383 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 05:42:12.685041 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 6'}
+2023-10-20 05:42:12.792303 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 05:46:18.492231 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 05:46:53.835814 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 05:50:59.200880 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 05:51:37.776648 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 05:52:16.327518 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 05:53:24.887712 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 05:54:03.246073 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 05:58:08.613243 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 05:58:43.949976 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 06:02:49.362304 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 06:03:27.851643 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 06:04:06.321254 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 06:05:14.751615 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 06:05:53.263774 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 7'}
+2023-10-20 06:05:53.493827 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 06:09:59.184342 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 06:10:34.631667 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 06:14:40.348317 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 06:15:18.835231 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 06:15:57.321950 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 06:17:05.786020 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 06:17:44.343941 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 06:21:50.160319 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 06:22:25.961200 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 06:26:31.662325 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 06:27:10.177038 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 06:27:48.645253 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 8'}
+2023-10-20 06:27:48.753655 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 06:29:27.121127 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 06:32:32.667222 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 06:33:15.018609 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 06:34:23.373001 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 06:35:01.899108 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 06:39:07.723997 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 06:39:43.526803 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 06:43:49.227054 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 06:44:27.824962 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 06:45:06.184851 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 06:46:14.568569 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 06:46:53.094379 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 9'}
+2023-10-20 06:46:53.324287 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 06:50:59.023052 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 06:51:34.372448 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 06:55:39.788265 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 06:56:18.274581 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 06:56:56.637670 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 06:58:05.091683 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 06:58:43.670531 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 07:02:49.362861 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 07:03:25.096795 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 07:07:30.774612 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 07:08:09.445221 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 07:08:48.039448 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 07:09:56.600978 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 07:10:35.086659 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 10'}
+2023-10-20 07:10:35.317299 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 07:14:40.994944 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 07:15:16.344954 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 07:19:21.684514 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 07:20:00.278244 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 07:20:38.764724 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 07:21:47.310877 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 07:22:25.857983 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 07:26:31.643114 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 07:27:07.376910 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 07:31:13.054580 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 07:31:51.525302 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 07:32:30.011457 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 11'}
+2023-10-20 07:32:30.119089 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 07:34:08.494954 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 07:37:13.837375 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 07:37:56.198351 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 07:39:04.560249 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 07:39:42.923458 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 07:43:48.493488 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 07:44:23.858487 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 07:48:29.198056 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 07:49:07.779561 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 07:49:46.354734 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 07:50:54.900192 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 07:51:33.403138 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 12'}
+2023-10-20 07:51:33.618329 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 07:55:39.210218 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 07:56:14.558291 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 08:00:19.914858 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 08:00:58.287660 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 08:01:36.655511 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 08:02:45.033981 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 08:03:23.633356 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 08:07:29.096740 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 08:08:04.454371 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 08:12:09.897513 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 08:12:48.452896 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 08:13:27.039129 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 08:14:35.606147 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 08:15:13.958490 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 13'}
+2023-10-20 08:15:14.066006 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 08:19:19.523420 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 08:19:54.864625 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 08:24:00.569331 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 08:24:39.108515 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 08:25:17.671078 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 08:26:26.240094 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 08:27:04.815874 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 08:31:10.274173 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 08:31:45.743440 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 08:35:51.193806 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 08:36:29.556896 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 08:37:08.196754 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 14'}
+2023-10-20 08:37:08.412018 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 08:38:46.896093 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 08:41:52.237977 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 08:42:34.829464 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 08:43:43.437240 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 08:44:22.031196 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 08:48:27.600959 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 08:49:02.950852 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 08:53:08.305413 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 08:53:47.053519 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 08:54:25.554497 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 08:55:34.039148 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 08:56:12.632878 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 15'}
+2023-10-20 08:56:12.848142 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 09:00:18.648876 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 09:00:54.398545 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 09:05:00.091436 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 09:05:38.454526 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 09:06:16.817726 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 09:07:25.179500 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 09:08:03.542590 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 09:12:09.342710 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 09:12:45.199630 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 09:16:50.908043 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 09:17:29.271631 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 09:18:07.634720 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 09:19:16.057370 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 09:19:54.558878 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 16'}
+2023-10-20 09:19:54.789518 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 09:24:00.790253 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 09:24:36.508797 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 09:28:41.971240 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 09:29:20.549593 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 09:29:59.051067 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 09:31:07.597441 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 09:31:46.345051 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 09:35:52.024068 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 09:36:27.477996 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 09:40:34.400186 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 09:41:12.870827 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 09:41:51.432020 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 17'}
+2023-10-20 09:41:51.662277 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 09:43:30.132549 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 09:46:35.499404 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 09:47:18.006902 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 09:48:26.492541 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 09:49:05.161331 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 09:53:10.858435 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 09:53:46.235454 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 09:57:51.945462 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 09:58:30.315379 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 09:59:08.673982 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 10:00:17.063560 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 10:00:55.535622 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 18'}
+2023-10-20 10:00:55.643635 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 10:05:01.226973 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 10:05:36.638551 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 10:09:42.466998 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 10:10:21.023108 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 10:10:59.611055 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 10:12:08.075876 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 10:12:46.695056 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 10:16:52.383761 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 10:17:27.781475 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 10:21:33.486012 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 10:22:11.857517 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 10:22:50.223628 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 10:23:58.603387 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 10:24:37.053586 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 19'}
+2023-10-20 10:24:37.268383 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 10:28:42.975714 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 10:29:18.337120 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 10:33:24.049962 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 10:34:02.560703 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 10:34:41.112171 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 10:35:49.591210 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 10:36:28.166453 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 10:40:33.739646 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 10:41:09.596512 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 10:45:15.289523 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 10:45:53.744869 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 10:46:32.108172 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 20'}
+2023-10-20 10:46:32.215804 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 10:48:10.699237 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 10:51:16.395030 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 10:51:58.755879 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 10:53:07.194518 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 10:53:45.680729 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 10:57:51.373799 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 10:58:26.830948 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 11:02:32.523683 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 11:03:11.010278 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 11:03:49.542007 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 11:04:58.257298 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 11:05:36.912536 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 21'}
+2023-10-20 11:05:37.143173 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 11:09:42.928398 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 11:10:18.631670 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 11:14:24.063719 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 11:15:02.595945 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 11:15:41.082043 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 11:16:49.674327 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 11:17:28.238135 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 11:21:33.899529 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 11:22:09.602337 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 11:26:15.095423 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 11:26:53.581654 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 11:27:31.944744 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 11:28:40.398643 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 11:29:18.885088 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 22'}
+2023-10-20 11:29:19.115728 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 11:33:24.839507 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 11:34:00.527175 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 11:38:05.866670 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 11:38:44.563008 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 11:39:23.047389 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 11:40:31.473431 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 11:41:10.040685 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 11:45:15.949253 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 11:45:51.625674 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 11:49:56.968436 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 11:50:35.320373 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 11:51:13.696348 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 23'}
+2023-10-20 11:51:13.803230 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 11:52:52.259883 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 11:55:57.894444 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 11:56:40.364894 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': 'clean source, step1/3, withdraw p3'}
+2023-10-20 11:57:48.928406 {'type': 'pvflow', 'p': 7, 'r': 300, 'v': 600, 'd': 'Infuse', 'post_wait': 4, 'status': 'clean source, step2/3 to waste p7'}
+2023-10-20 11:59:57.425762 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': 'clean source, step 3/3 wdr buffer p8'}
+2023-10-20 12:00:35.785046 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': 'clean source, step1/3, withdraw p4'}
+2023-10-20 12:01:44.254383 {'type': 'pvflow', 'p': 7, 'r': 300, 'v': 600, 'd': 'Infuse', 'post_wait': 4, 'status': 'clean source, step2/3 to waste p7'}
+2023-10-20 12:03:52.705355 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': 'clean source, step 3/3 wdr buffer p8'}
+2023-10-20 12:04:31.075457 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 12:05:39.440042 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 12:06:17.814971 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 12:10:23.166457 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 12:10:58.986050 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 12:15:04.341348 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 12:15:42.892126 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 12:16:21.478212 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 12:17:30.168615 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 12:18:08.692281 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 24'}
+2023-10-20 12:18:08.799641 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 12:22:14.216768 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 12:22:49.693981 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 12:26:55.056901 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 12:27:33.616560 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 12:28:12.158188 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 12:29:20.694296 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 12:29:59.151856 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 12:34:04.509520 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 12:34:39.849660 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 12:38:45.311821 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 12:39:24.098309 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 12:40:02.714357 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 12:41:11.198456 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 12:41:49.810513 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 25'}
+2023-10-20 12:41:50.039759 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 12:45:55.754210 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 12:46:31.448809 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 12:50:36.803171 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 12:51:15.289272 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 12:51:53.760023 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 12:53:02.214010 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 12:53:40.776833 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 12:57:46.562195 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 12:58:22.249922 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 13:02:27.697063 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 13:03:06.198537 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 13:03:44.577120 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 26'}
+2023-10-20 13:03:44.684752 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 13:05:23.106507 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 13:08:28.679306 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 13:09:11.040153 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 13:10:19.401666 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 13:10:57.841636 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 13:15:03.534570 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 13:15:38.914842 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 13:19:44.608375 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 13:20:23.125225 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 13:21:01.781078 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 13:22:10.265232 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 13:22:48.843586 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 27'}
+2023-10-20 13:22:48.951218 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 13:26:54.398461 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 13:27:30.101502 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 13:31:35.441240 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 13:32:14.034466 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 13:32:52.581833 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 13:34:01.055294 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 13:34:39.594310 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 13:38:44.998605 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 13:39:20.479897 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 13:43:25.942099 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 13:44:04.744404 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 13:44:43.359717 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 13:45:51.846571 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 13:46:30.384709 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 28'}
+2023-10-20 13:46:30.614299 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 13:50:35.968564 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 13:51:11.671608 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 13:55:17.073254 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 13:55:55.959122 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 13:56:34.445335 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 13:57:42.991490 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 13:58:21.478268 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 14:02:27.401421 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 14:03:03.365857 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 14:07:08.936375 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 14:07:47.529609 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 14:08:26.000094 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 29'}
+2023-10-20 14:08:26.107726 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 14:10:04.575754 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 14:13:09.933792 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 14:13:52.663663 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 14:15:01.363576 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 14:15:39.849786 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 14:19:45.189270 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 14:20:20.538784 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 14:24:25.878632 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 14:25:04.442107 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 14:25:42.927708 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 14:26:51.489238 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 14:27:29.975400 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 30'}
+2023-10-20 14:27:30.206040 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 14:31:35.883961 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 14:32:11.233358 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 14:36:16.572466 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 14:36:55.196969 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 14:37:33.667466 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 14:38:42.229229 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 14:39:20.715328 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 14:43:26.424079 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 14:44:01.773473 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 14:48:07.374243 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 14:48:46.014151 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 14:49:24.654009 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 14:50:33.160035 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 14:51:11.714485 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 31'}
+2023-10-20 14:51:11.945565 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 14:55:17.725364 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 14:55:53.315559 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 14:59:58.665343 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 15:00:37.037850 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 15:01:15.399086 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 15:02:23.873753 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 15:03:02.538266 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 15:07:08.267269 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 15:07:43.735551 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 15:11:49.144581 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 15:12:27.681042 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 15:13:06.184451 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 32'}
+2023-10-20 15:13:06.400523 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 15:14:44.875094 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 15:17:50.242167 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 15:18:32.749931 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 15:19:41.272796 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 15:20:19.753737 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 15:24:25.108691 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 15:25:00.457238 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 15:29:05.818629 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 15:29:44.406684 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 15:30:22.894877 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 15:31:31.396930 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 15:32:09.916025 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 33'}
+2023-10-20 15:32:10.148023 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 15:36:15.963378 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 15:36:51.635546 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 15:40:56.992202 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 15:41:35.351960 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 15:42:13.713835 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 15:43:22.181149 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 15:44:00.662817 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 15:48:06.478828 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 15:48:42.210680 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 15:52:47.924057 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 15:53:26.287815 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 15:54:04.668367 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 15:55:13.238807 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 15:55:51.736263 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 34'}
+2023-10-20 15:55:51.844709 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 15:59:57.415155 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 16:00:32.764575 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 16:04:38.137738 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 16:05:16.736804 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 16:05:55.256011 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 16:07:03.780104 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 16:07:42.149177 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 16:11:47.554493 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 16:12:23.267772 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 16:16:28.633234 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 16:17:06.996573 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 16:17:45.379799 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 35'}
+2023-10-20 16:17:45.487050 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 16:19:23.846357 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 16:22:29.202159 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 16:23:11.574945 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 16:24:19.942495 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 16:24:58.337393 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 16:29:04.041917 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 16:29:39.752206 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 16:33:45.092914 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 16:34:22.274987 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 16:35:00.699580 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 16:36:09.169351 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 16:36:47.747209 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 36'}
+2023-10-20 16:36:47.854841 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 16:40:53.224858 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 16:41:28.943278 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 16:45:34.282543 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 16:46:12.861393 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 16:46:51.347492 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 16:47:59.908526 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 16:48:38.394624 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 16:52:44.179976 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 16:53:19.913776 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 16:57:25.606685 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 16:58:04.169663 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 16:58:42.763393 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 16:59:51.340302 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 17:00:29.811021 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 37'}
+2023-10-20 17:00:30.026289 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 17:04:35.596347 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 17:05:10.945678 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 17:09:16.284943 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 17:09:54.847921 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 17:10:33.334515 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 17:11:41.880335 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 17:12:20.366433 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 17:16:26.166978 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 17:17:01.900556 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 17:21:07.685724 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 17:21:46.279454 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 17:22:24.873185 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 38'}
+2023-10-20 17:22:24.980820 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 17:24:03.448757 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 17:27:08.898590 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 17:27:51.428572 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 17:29:00.020854 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 17:29:38.507449 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 17:33:43.846855 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 17:34:19.194569 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 17:38:24.540659 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 17:39:03.029554 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 17:39:41.594997 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 17:40:50.076194 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 17:41:28.788221 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 39'}
+2023-10-20 17:41:28.896657 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 17:45:34.262401 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 17:46:09.613407 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 17:50:15.002573 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 17:50:53.459891 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 17:51:31.953375 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 17:52:40.337484 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 17:53:18.958530 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 17:57:24.673131 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 17:58:00.150520 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 18:02:05.864835 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 18:02:44.519660 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 18:03:23.081608 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 18:04:31.550454 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 18:05:10.145558 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 40'}
+2023-10-20 18:05:10.376309 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 18:09:15.788819 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 18:09:51.131026 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 18:13:56.504034 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 18:14:35.058457 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 18:15:13.753314 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2023-10-20 18:16:22.238129 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 18:17:00.900264 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 18:21:06.699235 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 18:21:42.288235 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 18:25:47.659080 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 18:26:26.021713 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 18:27:04.389278 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 41'}
+2023-10-20 18:27:04.497355 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 18:28:42.918579 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 18:31:48.622079 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 18:32:31.157667 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 18:33:39.697808 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 18:34:18.061801 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 18:38:23.400792 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 18:38:58.842241 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 18:43:04.535263 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 18:43:43.098348 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 18:44:21.615198 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 18:45:30.115231 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 18:46:08.662827 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 42'}
+2023-10-20 18:46:08.893467 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 18:50:14.663362 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 18:50:50.366638 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 18:54:55.782987 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 18:55:34.315332 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 18:56:12.801926 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 18:57:21.270818 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 18:57:59.833797 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 19:02:05.481002 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 19:02:41.183660 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 19:06:46.615518 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 19:07:25.086352 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 19:08:03.557071 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 19:09:11.996227 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 19:09:50.743455 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 43'}
+2023-10-20 19:09:50.958720 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 19:13:56.590236 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 19:14:32.416286 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 19:18:37.755618 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 19:19:16.380100 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 19:19:54.866198 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 19:21:03.335473 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 19:21:41.836947 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 19:25:47.591471 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 19:26:23.325383 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 19:30:29.095175 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 19:31:07.734791 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 19:31:46.205513 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 44'}
+2023-10-20 19:31:46.313146 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 19:33:24.780973 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 19:36:30.145481 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2023-10-20 19:37:12.728665 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 19:38:21.333354 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 19:38:59.816829 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 19:43:05.174926 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 19:43:40.520013 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 19:47:45.864340 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 19:48:24.384775 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 19:49:03.090775 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 19:50:11.570694 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 19:50:50.074101 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 45'}
+2023-10-20 19:50:50.182046 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 19:54:55.545107 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 19:55:31.032904 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 19:59:36.483904 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 20:00:15.040030 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 20:00:53.538075 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 20:02:01.897585 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 20:02:40.506900 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 20:06:46.209376 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 20:07:21.942349 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 20:11:27.280221 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 20:12:05.824905 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 20:12:44.317723 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 20:13:52.669856 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 20:14:31.373785 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 46'}
+2023-10-20 20:14:31.604139 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 20:18:37.321234 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 20:19:13.016111 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 20:23:18.367904 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 20:23:56.879438 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 20:24:35.442181 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p4'}
+2023-10-20 20:25:43.953702 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step2/7 pulse to device p6'}
+2023-10-20 20:26:22.698757 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step3/7 flow to device p6'}
+2023-10-20 20:30:28.264689 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step4/7 pulse to device p6'}
+2023-10-20 20:31:03.618596 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step5/7 flow to device p6'}
+2023-10-20 20:35:08.960362 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': '1port injection flow, step6/7 to waste p7'}
+2023-10-20 20:35:47.323453 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step7/7 wdr buffer p8'}
+2023-10-20 20:36:25.686542 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 47'}
+2023-10-20 20:36:25.794174 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
+2023-10-20 20:38:04.339196 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
+2023-10-20 20:41:10.019249 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 336, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
