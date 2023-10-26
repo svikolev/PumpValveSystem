@@ -1765,6 +1765,17 @@ def prog_from_json1(PV,params):
                 shutil.move(os.path.join(com_dir, new_file_name), destination_path)
                 print(
                     f"File '{fname}' has been moved to '{destination_path}/{new_file_name}'")
+
+                # Code from Michael: ------
+                # Create an empty file for the pump coms after moving the old.
+                empty_file = os.path.join(com_dir, fname)
+                with open(empty_file, 'w') as file:
+                    pass # empty file created.
+                print(
+                    f"File '{fname}' has been created in '{com_dir}'"
+                )
+                # -------------------------
+
             else:
                 print(f"File '{fname}' does not exist in the source directory '{com_dir}'.")
 
