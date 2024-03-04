@@ -5,54 +5,54 @@
             "type": "make_schedule",
             "file_name": "C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule",
             "cycle_times": [
-                13.58,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                26.72,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94,
-                19.0,
-                23.68,
-                21.94
+                14.65,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                28.58,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73,
+                20.86,
+                24.92,
+                22.73
             ]
         },
         {
@@ -61,6 +61,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -113,7 +122,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -124,6 +133,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -181,7 +199,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -192,6 +210,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -244,7 +271,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -255,6 +282,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -312,7 +348,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -323,6 +359,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -375,7 +420,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -384,6 +429,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 2"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -407,7 +461,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -418,6 +472,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -470,7 +533,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -481,6 +544,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -538,7 +610,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -549,6 +621,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -601,7 +682,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -612,6 +693,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -669,7 +759,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -680,6 +770,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -732,7 +831,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -741,6 +840,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 5"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -764,7 +872,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -775,6 +883,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -827,7 +944,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -838,6 +955,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -895,7 +1021,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -906,6 +1032,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -958,7 +1093,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -969,6 +1104,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1026,7 +1170,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1037,6 +1181,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1089,7 +1242,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1098,6 +1251,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 8"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -1121,7 +1283,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -1132,6 +1294,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1184,7 +1355,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1195,6 +1366,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1252,7 +1432,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1263,6 +1443,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1315,7 +1504,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1326,6 +1515,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1383,7 +1581,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1394,6 +1592,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -1446,7 +1653,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1455,6 +1662,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 11"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -1478,7 +1694,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -1489,6 +1705,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1541,7 +1766,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1552,6 +1777,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1609,7 +1843,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1620,6 +1854,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1672,7 +1915,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1683,6 +1926,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1740,7 +1992,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1751,6 +2003,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1803,7 +2064,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1812,6 +2073,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 14"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -1835,7 +2105,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -1846,6 +2116,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1898,7 +2177,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1909,6 +2188,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -1966,7 +2254,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -1977,6 +2265,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -2029,7 +2326,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2040,6 +2337,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -2097,7 +2403,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2108,6 +2414,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -2160,7 +2475,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2169,6 +2484,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 17"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -2192,7 +2516,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -2203,6 +2527,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2255,7 +2588,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2266,6 +2599,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2323,7 +2665,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2334,6 +2676,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2386,7 +2737,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2397,6 +2748,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2454,7 +2814,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2465,6 +2825,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2517,7 +2886,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2526,6 +2895,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 20"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -2549,7 +2927,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -2560,6 +2938,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2612,7 +2999,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2623,6 +3010,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2680,7 +3076,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2691,6 +3087,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2743,7 +3148,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2754,6 +3159,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2811,7 +3225,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2822,6 +3236,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -2874,7 +3297,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -2883,6 +3306,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 23"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -2906,7 +3338,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -2976,6 +3408,15 @@
         },
         {
             "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
             "p": 6,
             "r": 200,
             "v": 100,
@@ -3023,7 +3464,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3034,6 +3475,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3091,7 +3541,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3102,6 +3552,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3154,7 +3613,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3165,6 +3624,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3222,7 +3690,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3233,6 +3701,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3285,7 +3762,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3294,6 +3771,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 26"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -3317,7 +3803,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -3328,6 +3814,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3380,7 +3875,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3391,6 +3886,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3448,7 +3952,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3459,6 +3963,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3511,7 +4024,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3522,6 +4035,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3579,7 +4101,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3590,6 +4112,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -3642,7 +4173,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3651,6 +4182,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 29"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -3674,7 +4214,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -3685,6 +4225,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -3737,7 +4286,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3748,6 +4297,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -3805,7 +4363,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3816,6 +4374,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -3868,7 +4435,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3879,6 +4446,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -3936,7 +4512,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -3947,6 +4523,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -3999,7 +4584,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4008,6 +4593,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 32"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -4031,7 +4625,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -4042,6 +4636,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -4094,7 +4697,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4105,6 +4708,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -4162,7 +4774,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4173,6 +4785,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -4225,7 +4846,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4236,6 +4857,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -4293,7 +4923,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4304,6 +4934,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -4356,7 +4995,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4365,6 +5004,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 35"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -4388,7 +5036,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -4399,6 +5047,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4451,7 +5108,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4462,6 +5119,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4519,7 +5185,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4530,6 +5196,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4582,7 +5257,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4593,6 +5268,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4650,7 +5334,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4661,6 +5345,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4713,7 +5406,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4722,6 +5415,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 38"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -4745,7 +5447,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -4756,6 +5458,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4808,7 +5519,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4819,6 +5530,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4876,7 +5596,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4887,6 +5607,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -4939,7 +5668,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -4950,6 +5679,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -5007,7 +5745,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5018,6 +5756,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p3"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p3"
         },
@@ -5070,7 +5817,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5079,6 +5826,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 41"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -5102,7 +5858,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -5113,6 +5869,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5165,7 +5930,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5176,6 +5941,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5233,7 +6007,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5244,6 +6018,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5296,7 +6079,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5307,6 +6090,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5364,7 +6156,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5375,6 +6167,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5427,7 +6228,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5436,6 +6237,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 44"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -5459,7 +6269,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
@@ -5470,6 +6280,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5522,7 +6341,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5533,6 +6352,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5590,7 +6418,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5601,6 +6429,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5653,7 +6490,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5664,6 +6501,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5721,7 +6567,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5732,6 +6578,15 @@
             "r": 300,
             "v": 300,
             "d": "Withdraw",
+            "post_wait": 4,
+            "status": "1port injection flow, step1/7, withdraw p4"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 300,
+            "v": 100,
+            "d": "Infuse",
             "post_wait": 4,
             "status": "1port injection flow, step1/7, withdraw p4"
         },
@@ -5784,7 +6639,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 300,
+            "v": 400,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "1port injection flow, step7/7 wdr buffer p8"
@@ -5793,6 +6648,15 @@
             "type": "notify",
             "com_file": "C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps",
             "message": "imaging_ready 47"
+        },
+        {
+            "type": "pvflow",
+            "p": 5,
+            "r": 600,
+            "v": 200,
+            "d": "Infuse",
+            "post_wait": 4,
+            "status": "wash chip,step1/3, pulse buffer to chip p6"
         },
         {
             "type": "pvflow",
@@ -5816,7 +6680,7 @@
             "type": "pvflow",
             "p": 8,
             "r": 600,
-            "v": 336,
+            "v": 536,
             "d": "Withdraw",
             "post_wait": 4,
             "status": "wash chip,step3/3, refill buffer p8"
