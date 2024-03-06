@@ -10,7 +10,8 @@ class PumpValve:
         self.pump = pump
         self.pvADR = pvADR
         self.current_port = 1
-        self.moveToPort(1)
+        if self.valve is not None:
+            self.moveToPort(1)
         print('initialized valve at port 1')
         self.running_seq = False
         self.seq_dict = None
@@ -38,7 +39,8 @@ class PumpValve:
     def RunAtPort(self,port,rat,vol,direction):
         """moves valve to the input port and sends a single phase program to pump"""
         self.current_phase = {'p':port,'r':rat,'v':vol,'d':direction}
-        self.moveToPort(port)
+        if self.valve is not None:
+            self.moveToPort(port)
         self.phaseTargetDispense = float(self.pump.getDispensed(units = False))+vol
         self.runPumpPhase(rat,vol,direction)
 

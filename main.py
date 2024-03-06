@@ -41,14 +41,15 @@ def main_ui():
         pump = main_config["Pumps"][p]
         pumpsdict[pump["address"]] = pm.Pump(pser, pump)
 
-    """Init the labsmith objects """
-    valvePort = main_config["ValveCOM"]
-    eib = ls.EIB200(COM=valvePort)
+    # """Init the labsmith objects """
+    # valvePort = main_config["ValveCOM"]
+    # eib = ls.EIB200(COM=valvePort)
 
     valves = []
     for v in range(main_config["NumValves"]):
         valve = main_config["Valves"][v]
-        valves.append(ls.Valve(eib.ls4vm, channel=valve["ValveChannel"]))
+        #valves.append(ls.Valve(eib.ls4vm, channel=valve["ValveChannel"]))
+        valves.append(None)
     print(valves)
 
     ''' init pumpValve objects'''

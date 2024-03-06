@@ -97,7 +97,7 @@ class PumpValveControl(QtWidgets.QWidget):
 
         for i,unit in enumerate(self._pv_units):
             unit.pump.setLock(self._pump_lock)
-            unit.valve.setLock(self._valve_lock)
+            #unit.valve.setLock(self._valve_lock)
             row = 3+2*i
             
             # add pump number
@@ -266,7 +266,7 @@ class PumpValveControl(QtWidgets.QWidget):
         print('just change the program of pump {} to {}'.format(i,self._prog[i]))
     def set_port(self,i):
         self._port[i] = self.portmapper.mapping(i).currentText()
-        self._pv_units[i].moveToPort(int(self._port[i]))
+        #self._pv_units[i].moveToPort(int(self._port[i]))
     def set_dir(self, i):
         self._dir[i] = self.dirmapper.mapping(i).currentText()
         self._pv_units[i].get_pump_obj().setDirection(self._dir[i]) ## changed to pump_valve, after adding pumpvalve.set_dir
@@ -404,7 +404,7 @@ class PumpValveControl(QtWidgets.QWidget):
                 if pump_status == 'infusing' or pump_status == 'withdrawing':
                     self.dir_pulldown[i].setCurrentText(str(um.pump.getDirection()))
                     self.currflow[i].setText(um.pump.getRate())
-                self.ports_pulldown[i].setCurrentText(str(um.valve.current_port))
+                #self.ports_pulldown[i].setCurrentText(str(um.valve.current_port))
                 self.voldis[i].setText(um.pump.getDispensed())
                 self.unitPhase[i].setText(str(um.current_phase)) #todo: add text from phase description
                 self.unitPhaseVolRemainder[i].setText("V remain"+str(int(um.phaseTargetDispense-float(um.pump.getDispensed(units = False)))))
