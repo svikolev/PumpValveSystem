@@ -1838,7 +1838,7 @@ def prog_from_json1(PV,params):
 
         elif step_dict['type'] == 'pvflow':
             _PV.moveToPort(port = step_dict['p'])
-            _PV.thread_kill.wait(timeout=10)
+            _PV.thread_kill.wait(timeout=5)
             _PV.RunAtPort(port = step_dict['p'], rat = step_dict['r'], vol = step_dict['v'], direction = step_dict['d'])
             expect_time = math.ceil(int(step_dict['v']) / int(step_dict['r']) * 60) +int(step_dict['post_wait'])
             _PV.thread_kill.wait(timeout=expect_time)

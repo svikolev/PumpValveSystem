@@ -6958,3 +6958,5 @@
 2024-04-23 17:58:56.092396 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step1/3, pulse buffer to chip p6'}
 2024-04-23 18:00:41.604862 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 4, 'status': 'wash chip,step2/3, flow buffer to chip p6'}
 2024-04-23 18:03:57.119997 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
+2024-04-25 18:23:31.042768 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule', 'cycle_times': [14.6, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 29.66, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3]}
+2024-04-25 18:23:31.208078 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}

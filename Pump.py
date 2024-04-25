@@ -191,18 +191,79 @@ class Pump(object):
         res=self._ser.readline()
         if res == '':
             raise PumpCommError('NR', cmd)
+        #try:
         match = self._response.match(res.decode('utf-8'))
+        # except Exception as e:
+        #     print('match', e)
         if match is None:
             raise PumpCommError('NR')
         if match.group('status') == 'A?':
-            raise PumpHardwareError(match.group('data'), cmd)
+            #print('m group A?')
+            #raise PumpHardwareError(match.group('data'))#, cmd)
+            error_code = match.group('data')[1:]
+            error_message = PumpHardwareError._mesg.get(error_code, 'Unknown error')
+            #response.update({'status': 'error', 'message': error_message})
+            print(match.groupdict(),':')
+            print(error_message)
+            raise PumpHardwareError(match.group('data'))
         elif match.group('data').startswith('?'):
-            print(match,match.group)
-            raise PumpCommError(match.group('data')[1:], cmd)
+            error_code = match.group('data')[1:]
+            error_message = PumpCommError._mesg.get(error_code, 'Unknown error')
+            #response.update({'status': 'error', 'message': error_message})
+            print(match.groupdict(), ':')
+            print(error_message)
+            #return response
+            #raise PumpCommError(match.group('data')[1:])#,cmd) # error is here
         if check_lock and self._check_lock:
             self._lock.release()
-        return match.groupdict()
+        mgd = match.groupdict()
+        return mgd
 
+    # def _write_read(self, cmd, check_lock=True):
+    #     response = {'status': 'success', 'data': None, 'message': ''}
+    #     locked = False
+    #     try:
+    #         if check_lock and self._check_lock:
+    #             self._lock.acquire()
+    #             locked = True
+    #         cmd = str(self._address) + ' ' + cmd + '\r'
+    #         self._ser.write(cmd.encode('utf-8'))
+    #         res = self._ser.readline()
+    #
+    #         #     cmd = str(self._address) + ' ' + cmd + '\r'
+    #         #     self._ser.write(cmd.encode('utf-8'))
+    #         #     res=self._ser.readline()
+    #         if res == '':
+    #             response.update({'status': 'error', 'message': 'No response from pump'})
+    #             return response
+    #         try:
+    #             match = self._response.match(res.decode('utf-8'))
+    #         except Exception as e:
+    #             response.update({'status': 'error', 'message': str(e)})
+    #             return response
+    #         if match is None:
+    #             response.update({'status': 'error', 'message': 'No match in response'})
+    #             return response
+    #         if match.group('status') == 'A?':
+    #             error_code = match.group('data')[1:]
+    #             error_message = self.PumpHardwareError._mesg.get(error_code, 'Unknown error')
+    #             response.update({'status': 'error', 'message': error_message})
+    #             print(error_message)
+    #             raise PumpHardwareError(match.group('data'))
+    #             #return response
+    #         elif match.group('data').startswith('?'):
+    #             error_code = match.group('data')[1:]
+    #             error_message = self.PumpCommError._mesg.get(error_code, 'Unknown error')
+    #             response.update({'status': 'error', 'message': error_message})
+    #             print(error_message)
+    #             return response
+    #         response['data'] = match.groupdict()
+    #     except Exception as e:
+    #         response.update({'status': 'error', 'message': str(e)})
+    #     finally:
+    #         if locked:
+    #             self._lock.release()
+    #     return response
 
     def sendCommand(self,cmd):
         '''send any command'''

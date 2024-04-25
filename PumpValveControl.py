@@ -386,6 +386,7 @@ class PumpValveControl(QtWidgets.QWidget):
         if self._pv_units[i].get_pump_obj().getStatus() != 'halted' or self._pv_units[i].running_seq:
             print('Stopping pump {} '.format(i))
             self._pv_units[i].get_pump_obj().stop()
+            print('stopped_pump')
             if self._pv_units[i].running_seq:
                 self._pv_units[i].thread_kill.set()
             #self.run_btns[i].setChecked(False)

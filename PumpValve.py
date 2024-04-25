@@ -10,7 +10,7 @@ class PumpValve:
         self.pump = pump
         self.pvADR = pvADR
         self.current_port = 1
-        self.valve.moveToPort(1)
+        #self.valve.moveToPort(1)
         #self.moveToPort(1)
         print('initialized valve at port 1')
         self.running_seq = False

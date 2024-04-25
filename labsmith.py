@@ -20,7 +20,8 @@ class Valve:
         self.ls4vm = ls4vm
         self.channel = channel
         self.lock = lock
-        self.current_port = 1
+        self.current_port = None
+        self.moveToPort(1)
         print(f'called init valve {channel}')
 
     def moveToPort(self,port):
@@ -34,26 +35,20 @@ class Valve:
         # if self.channel == 1:
         #     port = port_ref[port-1]
 
-        print("labsmith valve obj, moving to port {}".format(port))
+        print("valve # {}, moving from {} to port {}".format(self.channel,self.current_port,port))
 
-
-        if self.lock is not None:
-            self.lock.acquire()
+        if self.current_port is None or self.current_port != port:
+            if self.lock is not None:
+                self.lock.acquire()
             _ = self.ls4vm.CmdSelect(self.channel, port)
+            print('valv_rot wait')
+            time.sleep(4)
 
-        # moving = True
-        # while moving:
-        #     s = self.ls4vm.GetValveStatus(self.channel)
-        #     moving = C4VM.IsMoving(s)
-        #     print('m:',moving)
-        #     print(dir(C4VM))
-        #     print('ss',self.ls4vm.CmdGetStatus())
-        #     time.sleep(0.5)
-        if self.lock is not None:
-            self.lock.release()
-            #print(moving, C4VM.GetSelection(s))
-        print("moved to port{}".format(port))
-        self.setPort(port)
+            if self.lock is not None:
+                self.lock.release()
+                #print(moving, C4VM.GetSelection(s))
+            print("moved to port{}".format(port))
+            self.setPort(port)
         #
         # print("labsmith valve obj, moving to port {}".format(port))
         # moving = True
