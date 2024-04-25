@@ -10,12 +10,14 @@ class PumpValve:
         self.pump = pump
         self.pvADR = pvADR
         self.current_port = 1
-        self.moveToPort(1)
+        self.valve.moveToPort(1)
+        #self.moveToPort(1)
         print('initialized valve at port 1')
         self.running_seq = False
         self.seq_dict = None
         self.current_phase = "not running seq"
         self.phaseTargetDispense = 0
+        print(f'called init pv {pvADR}')
 
     def get_pump_obj(self):
         return self.pump
@@ -26,8 +28,18 @@ class PumpValve:
         if self.pump.getStatus() != 'halted':
             self.pump.stop()
         self.valve.moveToPort(port)
-        if port != cp:
-            time.sleep(3)
+        # if port != cp:
+        #     def get_next(p):
+        #         if p ==8:
+        #             return 1
+        #         else:
+        #             return p+1
+        #     steps = port - cp
+        #     if steps < 0:
+        #         steps = 8 + steps
+        #     for ii in range(steps):
+        #         self.valve.moveToPort(get_next(cp+ii))
+        #         time.sleep(1.5)
         self.current_port = port
 
     def runPumpPhase(self,rat,vol,direction):

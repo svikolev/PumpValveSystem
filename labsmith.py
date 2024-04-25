@@ -1,5 +1,6 @@
 
 from uProcess_x64 import CEIB, C4VM
+import time
 
 class EIB200:
     def __init__(self,COM):
@@ -20,6 +21,7 @@ class Valve:
         self.channel = channel
         self.lock = lock
         self.current_port = 1
+        print(f'called init valve {channel}')
 
     def moveToPort(self,port):
         """Sends command called 'CmdSelect' to ls4VM02 with the channel of the valve
@@ -33,21 +35,42 @@ class Valve:
         #     port = port_ref[port-1]
 
         print("labsmith valve obj, moving to port {}".format(port))
-        moving = True
-        while moving:
-            if self.lock is not None:
-                self.lock.acquire()
+
+
+        if self.lock is not None:
+            self.lock.acquire()
             _ = self.ls4vm.CmdSelect(self.channel, port)
-            s = self.ls4vm.GetValveStatus(self.channel)
-            if self.lock is not None:
-                self.lock.release()
-            moving = C4VM.IsMoving(s)
+
+        # moving = True
+        # while moving:
+        #     s = self.ls4vm.GetValveStatus(self.channel)
+        #     moving = C4VM.IsMoving(s)
+        #     print('m:',moving)
+        #     print(dir(C4VM))
+        #     print('ss',self.ls4vm.CmdGetStatus())
+        #     time.sleep(0.5)
+        if self.lock is not None:
+            self.lock.release()
             #print(moving, C4VM.GetSelection(s))
         print("moved to port{}".format(port))
         self.setPort(port)
+        #
+        # print("labsmith valve obj, moving to port {}".format(port))
+        # moving = True
+        # while moving:
+        #     if self.lock is not None:
+        #         self.lock.acquire()
+        #     _ = self.ls4vm.CmdSelect(self.channel, port)
+        #     s = self.ls4vm.GetValveStatus(self.channel)
+        #     if self.lock is not None:
+        #         self.lock.release()
+        #     moving = C4VM.IsMoving(s)
+        #     #print(moving, C4VM.GetSelection(s))
+        # print("moved to port{}".format(port))
+        # self.setPort(port)
 
     def getStatus(self):
-        """asks the pump what port its on. this one doesnt use the lock because
+        """asks the valve what port its on. this one doesnt use the lock because
         it's intended to pe used only in terminal"""
         return self.ls4vm.GetValveStatus(self.channel)
 
