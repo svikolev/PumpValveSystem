@@ -1609,9 +1609,9 @@ def no_valve_2d(PV,params):
         for hour in range(params['hours']):
             flag = True
             i = 0
-            while flag and i < 30:
-                flag = RunAtPort_threadCheck(_PV, p=6, r=150, v=150, d='Infuse') and \
-                       RunAtPort_threadCheck(_PV, p=6, r=6, v=120, d='Infuse')
+            while flag and i < 17:
+                flag = RunAtPort_threadCheck(_PV, p=6, r=100, v=150, d='Infuse') and \
+                       RunAtPort_threadCheck(_PV, p=6, r=6, v=30, d='Infuse')
 
                 i += 1
             if _PV.thread_kill.is_set():
