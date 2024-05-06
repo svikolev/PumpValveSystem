@@ -6960,3 +6960,708 @@
 2024-04-23 18:03:57.119997 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip,step3/3, refill buffer p8'}
 2024-04-25 18:23:31.042768 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule', 'cycle_times': [14.6, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 29.66, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3, 21.26, 25.27, 23.3]}
 2024-04-25 18:23:31.208078 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 4, 'status': '1port injection flow, step1/7, withdraw p3'}
+2024-05-02 21:24:58.843572 {'type': 'make_schedule', 'file_name': 'C:\\Users\\LevineLab\\Documents\\Repos\\Pumps\\wash_schedule', 'cycle_times': [17.931, 23.68, 22.497, 19.242, 23.68, 22.497, 24.166, 23.68, 22.497, 19.242, 23.68, 22.497, 24.166, 23.68, 22.497, 19.242, 23.68, 22.497, 24.166, 23.68, 22.497, 19.242, 23.68, 22.497, 24.185, 23.682, 22.482, 19.26, 23.682, 22.482, 24.185, 23.682, 22.482, 19.26, 23.682, 22.482, 24.185, 23.682, 22.482, 19.26, 23.682, 22.482, 24.185, 23.682, 22.482, 19.26, 23.682, 22.482], 'step_num': 0}
+2024-05-02 21:24:58.979526 {'type': 'pvflow', 'p': 3, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p3', 'expect_duration': 0.742, 'step_num': 1}
+2024-05-02 21:25:45.891592 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p3', 'expect_duration': 1.1, 'step_num': 2}
+2024-05-02 21:26:53.568442 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.508, 'step_num': 3}
+2024-05-02 21:28:25.584722 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 4}
+2024-05-02 21:29:54.685565 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 5}
+2024-05-02 21:31:05.544183 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 6}
+2024-05-02 21:31:46.414723 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 7}
+2024-05-02 21:35:49.751154 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 8}
+2024-05-02 21:36:23.088285 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 9}
+2024-05-02 21:40:26.412135 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 10}
+2024-05-02 21:41:05.478991 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 11}
+2024-05-02 21:41:44.543231 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 12}
+2024-05-02 21:42:55.425009 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 0', 'expect_duration': 0, 'step_num': 13}
+2024-05-02 21:42:55.531583 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 14}
+2024-05-02 21:43:36.401803 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 15}
+2024-05-02 21:47:39.737101 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 16}
+2024-05-02 21:48:13.069678 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 17}
+2024-05-02 21:52:16.398167 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 18}
+2024-05-02 21:52:55.273864 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 19}
+2024-05-02 21:53:34.349836 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 20}
+2024-05-02 21:54:45.221515 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 21}
+2024-05-02 21:55:26.151686 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 22}
+2024-05-02 21:59:29.722379 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 23}
+2024-05-02 22:00:03.046009 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 24}
+2024-05-02 22:04:06.381871 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 25}
+2024-05-02 22:04:45.346418 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 26}
+2024-05-02 22:05:24.413469 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 27}
+2024-05-02 22:06:35.287840 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 1', 'expect_duration': 0, 'step_num': 28}
+2024-05-02 22:06:35.395462 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 29}
+2024-05-02 22:07:16.253729 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 30}
+2024-05-02 22:11:19.582266 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 31}
+2024-05-02 22:11:52.922325 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 32}
+2024-05-02 22:15:56.254398 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 33}
+2024-05-02 22:16:35.127910 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 34}
+2024-05-02 22:17:14.203610 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 35}
+2024-05-02 22:18:25.064380 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 36}
+2024-05-02 22:19:05.931279 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 37}
+2024-05-02 22:23:09.264444 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 38}
+2024-05-02 22:23:42.595220 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 39}
+2024-05-02 22:27:45.923681 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 40}
+2024-05-02 22:28:24.793807 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 41}
+2024-05-02 22:29:03.859203 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 2', 'expect_duration': 0, 'step_num': 42}
+2024-05-02 22:29:03.966665 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 43}
+2024-05-02 22:29:34.828916 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 44}
+2024-05-02 22:31:11.679888 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 45}
+2024-05-02 22:34:15.013740 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 46}
+2024-05-02 22:35:16.628598 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 47}
+2024-05-02 22:36:27.490384 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 48}
+2024-05-02 22:37:08.369484 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 49}
+2024-05-02 22:41:11.703441 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 50}
+2024-05-02 22:41:45.032077 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 51}
+2024-05-02 22:45:48.368628 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 52}
+2024-05-02 22:46:27.232150 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 53}
+2024-05-02 22:47:06.277785 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 54}
+2024-05-02 22:48:17.147502 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 3', 'expect_duration': 0, 'step_num': 55}
+2024-05-02 22:48:17.255278 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 56}
+2024-05-02 22:48:58.122006 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 57}
+2024-05-02 22:53:01.443670 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 58}
+2024-05-02 22:53:34.770823 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 59}
+2024-05-02 22:57:38.106135 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 60}
+2024-05-02 22:58:16.988515 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 61}
+2024-05-02 22:58:56.081826 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 62}
+2024-05-02 23:00:06.957307 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 63}
+2024-05-02 23:00:47.818114 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 64}
+2024-05-02 23:04:51.147311 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 65}
+2024-05-02 23:05:24.476445 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 66}
+2024-05-02 23:09:27.802692 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 67}
+2024-05-02 23:10:06.686106 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 68}
+2024-05-02 23:10:45.699288 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 69}
+2024-05-02 23:11:56.569497 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 4', 'expect_duration': 0, 'step_num': 70}
+2024-05-02 23:11:56.676347 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 71}
+2024-05-02 23:12:37.556562 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 72}
+2024-05-02 23:16:40.889960 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 73}
+2024-05-02 23:17:14.209210 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 74}
+2024-05-02 23:21:17.539706 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 75}
+2024-05-02 23:21:56.411997 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 76}
+2024-05-02 23:22:35.515737 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 77}
+2024-05-02 23:23:46.347615 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 78}
+2024-05-02 23:24:27.216181 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 79}
+2024-05-02 23:28:30.555757 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 80}
+2024-05-02 23:29:03.888248 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 81}
+2024-05-02 23:33:07.222874 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 82}
+2024-05-02 23:33:46.096677 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 83}
+2024-05-02 23:34:25.223821 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 5', 'expect_duration': 0, 'step_num': 84}
+2024-05-02 23:34:25.331719 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 85}
+2024-05-02 23:34:56.190203 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 86}
+2024-05-02 23:36:33.078628 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 87}
+2024-05-02 23:39:36.418442 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 88}
+2024-05-02 23:40:37.897050 {'type': 'pvflow', 'p': 3, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p3', 'expect_duration': 0.758, 'step_num': 89}
+2024-05-02 23:41:24.773355 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p3', 'expect_duration': 1.1, 'step_num': 90}
+2024-05-02 23:42:32.100554 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.508, 'step_num': 91}
+2024-05-02 23:44:03.980378 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 92}
+2024-05-02 23:45:32.936630 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 93}
+2024-05-02 23:46:43.796543 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 94}
+2024-05-02 23:47:24.678092 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 95}
+2024-05-02 23:51:28.002580 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 96}
+2024-05-02 23:52:01.690448 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 97}
+2024-05-02 23:56:05.021565 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 98}
+2024-05-02 23:56:43.960917 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 99}
+2024-05-02 23:57:22.827634 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 100}
+2024-05-02 23:58:33.674908 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 6', 'expect_duration': 0, 'step_num': 101}
+2024-05-02 23:58:33.782653 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 102}
+2024-05-02 23:59:14.637711 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 103}
+2024-05-03 00:03:18.030555 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 104}
+2024-05-03 00:03:51.726909 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 105}
+2024-05-03 00:07:55.058923 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 106}
+2024-05-03 00:08:33.930611 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 107}
+2024-05-03 00:09:13.027713 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 108}
+2024-05-03 00:10:23.911034 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 109}
+2024-05-03 00:11:04.766778 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 110}
+2024-05-03 00:15:08.102194 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 111}
+2024-05-03 00:15:41.783452 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 112}
+2024-05-03 00:19:45.109318 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 113}
+2024-05-03 00:20:24.146174 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 114}
+2024-05-03 00:21:03.029459 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 115}
+2024-05-03 00:22:13.994375 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 7', 'expect_duration': 0, 'step_num': 116}
+2024-05-03 00:22:14.102002 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 117}
+2024-05-03 00:22:54.977349 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 118}
+2024-05-03 00:26:58.308940 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 119}
+2024-05-03 00:27:31.634255 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 120}
+2024-05-03 00:31:34.970093 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 121}
+2024-05-03 00:32:14.013709 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 122}
+2024-05-03 00:32:52.889000 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 123}
+2024-05-03 00:34:03.762699 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 124}
+2024-05-03 00:34:44.621149 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 125}
+2024-05-03 00:38:47.947998 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 126}
+2024-05-03 00:39:21.273185 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 127}
+2024-05-03 00:43:24.607275 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 128}
+2024-05-03 00:44:03.703275 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 129}
+2024-05-03 00:44:42.792760 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 8', 'expect_duration': 0, 'step_num': 130}
+2024-05-03 00:44:42.900261 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 131}
+2024-05-03 00:45:13.769909 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 132}
+2024-05-03 00:46:50.934904 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 133}
+2024-05-03 00:49:54.511025 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 134}
+2024-05-03 00:50:55.992492 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 135}
+2024-05-03 00:52:06.855378 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 136}
+2024-05-03 00:52:47.696873 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 137}
+2024-05-03 00:56:51.030042 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 138}
+2024-05-03 00:57:24.356418 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 139}
+2024-05-03 01:01:27.689351 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 140}
+2024-05-03 01:02:06.666350 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 141}
+2024-05-03 01:02:45.834271 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 142}
+2024-05-03 01:03:56.704778 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 9', 'expect_duration': 0, 'step_num': 143}
+2024-05-03 01:03:56.813534 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 144}
+2024-05-03 01:04:37.666898 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 145}
+2024-05-03 01:08:41.003250 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 146}
+2024-05-03 01:09:14.344507 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 147}
+2024-05-03 01:13:17.672289 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 148}
+2024-05-03 01:13:56.764949 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 149}
+2024-05-03 01:14:35.611728 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 150}
+2024-05-03 01:15:46.493031 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 151}
+2024-05-03 01:16:27.355932 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 152}
+2024-05-03 01:20:30.692654 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 153}
+2024-05-03 01:21:04.022327 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 154}
+2024-05-03 01:25:07.353934 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 155}
+2024-05-03 01:25:46.377155 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 156}
+2024-05-03 01:26:25.241495 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 157}
+2024-05-03 01:27:36.102290 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 10', 'expect_duration': 0, 'step_num': 158}
+2024-05-03 01:27:36.209726 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 159}
+2024-05-03 01:28:17.084013 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 160}
+2024-05-03 01:32:20.418810 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 161}
+2024-05-03 01:32:53.744466 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 162}
+2024-05-03 01:36:57.068934 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 163}
+2024-05-03 01:37:35.942683 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 164}
+2024-05-03 01:38:15.018066 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 165}
+2024-05-03 01:39:25.893186 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 166}
+2024-05-03 01:40:06.751451 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 167}
+2024-05-03 01:44:10.074425 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 168}
+2024-05-03 01:44:43.396913 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 169}
+2024-05-03 01:48:46.785248 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 170}
+2024-05-03 01:49:25.771242 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 171}
+2024-05-03 01:50:04.635271 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 11', 'expect_duration': 0, 'step_num': 172}
+2024-05-03 01:50:04.743080 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 173}
+2024-05-03 01:50:35.613586 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 174}
+2024-05-03 01:52:12.781075 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 175}
+2024-05-03 01:55:16.255197 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 176}
+2024-05-03 01:56:17.847065 {'type': 'pvflow', 'p': 3, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p3', 'expect_duration': 0.758, 'step_num': 177}
+2024-05-03 01:57:04.768326 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p3', 'expect_duration': 1.1, 'step_num': 178}
+2024-05-03 01:58:12.344833 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.508, 'step_num': 179}
+2024-05-03 01:59:44.212440 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 180}
+2024-05-03 02:01:13.072108 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 181}
+2024-05-03 02:02:23.950508 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 182}
+2024-05-03 02:03:04.800497 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 183}
+2024-05-03 02:07:08.129348 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 184}
+2024-05-03 02:07:41.455396 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 185}
+2024-05-03 02:11:44.791577 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 186}
+2024-05-03 02:12:23.896754 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 187}
+2024-05-03 02:13:02.759673 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 188}
+2024-05-03 02:14:13.637104 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 12', 'expect_duration': 0, 'step_num': 189}
+2024-05-03 02:14:13.744092 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 190}
+2024-05-03 02:14:54.596734 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 191}
+2024-05-03 02:18:58.046559 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 192}
+2024-05-03 02:19:31.383391 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 193}
+2024-05-03 02:23:34.719519 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 194}
+2024-05-03 02:24:13.609746 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 195}
+2024-05-03 02:24:52.587846 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 196}
+2024-05-03 02:26:03.454050 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 197}
+2024-05-03 02:26:44.333061 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 198}
+2024-05-03 02:30:47.651837 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 199}
+2024-05-03 02:31:20.990374 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 200}
+2024-05-03 02:35:24.326161 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 201}
+2024-05-03 02:36:03.434846 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 202}
+2024-05-03 02:36:42.589156 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 203}
+2024-05-03 02:37:53.464659 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 13', 'expect_duration': 0, 'step_num': 204}
+2024-05-03 02:37:53.572574 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 205}
+2024-05-03 02:38:34.449405 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 206}
+2024-05-03 02:42:37.785811 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 207}
+2024-05-03 02:43:11.122864 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 208}
+2024-05-03 02:47:14.454157 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 209}
+2024-05-03 02:47:53.454701 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 210}
+2024-05-03 02:48:32.576512 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 211}
+2024-05-03 02:49:43.879817 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 212}
+2024-05-03 02:50:24.995042 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 213}
+2024-05-03 02:54:28.318764 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 214}
+2024-05-03 02:55:01.648189 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 215}
+2024-05-03 02:59:04.976045 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 216}
+2024-05-03 02:59:43.852846 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 217}
+2024-05-03 03:00:22.964731 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 14', 'expect_duration': 0, 'step_num': 218}
+2024-05-03 03:00:23.072103 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 219}
+2024-05-03 03:00:54.034983 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 220}
+2024-05-03 03:02:31.098054 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 221}
+2024-05-03 03:05:34.783360 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 222}
+2024-05-03 03:06:36.253289 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 223}
+2024-05-03 03:07:47.130106 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 224}
+2024-05-03 03:08:28.056052 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 225}
+2024-05-03 03:12:31.385682 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 226}
+2024-05-03 03:13:04.721245 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 227}
+2024-05-03 03:17:08.044919 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 228}
+2024-05-03 03:17:47.119461 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 229}
+2024-05-03 03:18:25.968205 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 230}
+2024-05-03 03:19:36.869670 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 15', 'expect_duration': 0, 'step_num': 231}
+2024-05-03 03:19:36.977388 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 232}
+2024-05-03 03:20:17.949425 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 233}
+2024-05-03 03:24:21.273809 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 234}
+2024-05-03 03:24:54.592921 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 235}
+2024-05-03 03:28:57.929876 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 236}
+2024-05-03 03:29:37.015494 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 237}
+2024-05-03 03:30:16.019363 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 238}
+2024-05-03 03:31:26.900645 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 239}
+2024-05-03 03:32:07.766131 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 240}
+2024-05-03 03:36:11.089916 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 241}
+2024-05-03 03:36:44.410887 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 242}
+2024-05-03 03:40:47.728458 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 243}
+2024-05-03 03:41:26.756262 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 244}
+2024-05-03 03:42:05.851862 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 245}
+2024-05-03 03:43:17.095198 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 16', 'expect_duration': 0, 'step_num': 246}
+2024-05-03 03:43:17.449382 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 247}
+2024-05-03 03:43:58.642822 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 248}
+2024-05-03 03:48:01.967771 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 249}
+2024-05-03 03:48:35.415530 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 250}
+2024-05-03 03:52:38.745477 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 251}
+2024-05-03 03:53:17.752221 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 252}
+2024-05-03 03:53:56.623310 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 253}
+2024-05-03 03:55:07.805906 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 254}
+2024-05-03 03:55:48.673382 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 255}
+2024-05-03 03:59:52.005513 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 256}
+2024-05-03 04:00:25.342232 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 257}
+2024-05-03 04:04:28.671125 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 258}
+2024-05-03 04:05:07.551140 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 259}
+2024-05-03 04:05:46.654915 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 17', 'expect_duration': 0, 'step_num': 260}
+2024-05-03 04:05:46.762403 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 261}
+2024-05-03 04:06:17.630959 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 262}
+2024-05-03 04:07:54.507790 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 263}
+2024-05-03 04:10:57.965562 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 264}
+2024-05-03 04:11:59.557974 {'type': 'pvflow', 'p': 3, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p3', 'expect_duration': 0.758, 'step_num': 265}
+2024-05-03 04:12:46.450092 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p3', 'expect_duration': 1.1, 'step_num': 266}
+2024-05-03 04:13:54.031200 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.508, 'step_num': 267}
+2024-05-03 04:15:25.901188 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 268}
+2024-05-03 04:16:54.777009 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 269}
+2024-05-03 04:18:05.634282 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 270}
+2024-05-03 04:18:46.511263 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 271}
+2024-05-03 04:22:49.845466 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 272}
+2024-05-03 04:23:23.176165 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 273}
+2024-05-03 04:27:26.508059 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 274}
+2024-05-03 04:28:05.540870 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 275}
+2024-05-03 04:28:44.392339 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 276}
+2024-05-03 04:29:55.334155 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 18', 'expect_duration': 0, 'step_num': 277}
+2024-05-03 04:29:55.441648 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 278}
+2024-05-03 04:30:36.301292 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 279}
+2024-05-03 04:34:39.626909 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 280}
+2024-05-03 04:35:12.958842 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 281}
+2024-05-03 04:39:16.285391 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 282}
+2024-05-03 04:39:55.167732 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 283}
+2024-05-03 04:40:34.255660 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 284}
+2024-05-03 04:41:45.115803 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 285}
+2024-05-03 04:42:26.001566 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 286}
+2024-05-03 04:46:29.328189 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 287}
+2024-05-03 04:47:02.663644 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 288}
+2024-05-03 04:51:05.998313 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 289}
+2024-05-03 04:51:45.098072 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 290}
+2024-05-03 04:52:24.100922 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 291}
+2024-05-03 04:53:35.295089 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 19', 'expect_duration': 0, 'step_num': 292}
+2024-05-03 04:53:35.403286 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 293}
+2024-05-03 04:54:16.276159 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 294}
+2024-05-03 04:58:19.599911 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 295}
+2024-05-03 04:58:52.917240 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 296}
+2024-05-03 05:02:56.250333 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 297}
+2024-05-03 05:03:35.314320 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 298}
+2024-05-03 05:04:14.196862 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 299}
+2024-05-03 05:05:25.154221 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 300}
+2024-05-03 05:06:06.083592 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 301}
+2024-05-03 05:10:09.530468 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 302}
+2024-05-03 05:10:42.855946 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 303}
+2024-05-03 05:14:46.185126 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 304}
+2024-05-03 05:15:25.285168 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 305}
+2024-05-03 05:16:04.165160 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 20', 'expect_duration': 0, 'step_num': 306}
+2024-05-03 05:16:04.273883 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 307}
+2024-05-03 05:16:35.157976 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 308}
+2024-05-03 05:18:12.315399 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 309}
+2024-05-03 05:21:15.999290 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 310}
+2024-05-03 05:22:17.477943 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 311}
+2024-05-03 05:23:28.349753 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 312}
+2024-05-03 05:24:09.234757 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 313}
+2024-05-03 05:28:12.575443 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 314}
+2024-05-03 05:28:45.980886 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 315}
+2024-05-03 05:32:49.316361 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 316}
+2024-05-03 05:33:28.171213 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 317}
+2024-05-03 05:34:07.247990 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 318}
+2024-05-03 05:35:18.095617 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 21', 'expect_duration': 0, 'step_num': 319}
+2024-05-03 05:35:18.203699 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 320}
+2024-05-03 05:35:59.071852 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 321}
+2024-05-03 05:40:02.407535 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 322}
+2024-05-03 05:40:35.748318 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 323}
+2024-05-03 05:44:39.082179 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 324}
+2024-05-03 05:45:18.151039 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 325}
+2024-05-03 05:45:57.133325 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 326}
+2024-05-03 05:47:08.011290 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 327}
+2024-05-03 05:47:48.900753 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 328}
+2024-05-03 05:51:52.233193 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 329}
+2024-05-03 05:52:25.555406 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 330}
+2024-05-03 05:56:28.889189 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 331}
+2024-05-03 05:57:07.915640 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 332}
+2024-05-03 05:57:46.904094 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 333}
+2024-05-03 05:58:57.767374 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 22', 'expect_duration': 0, 'step_num': 334}
+2024-05-03 05:58:57.875072 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.658, 'step_num': 335}
+2024-05-03 05:59:38.750105 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 336}
+2024-05-03 06:03:42.080533 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 337}
+2024-05-03 06:04:15.401666 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 338}
+2024-05-03 06:08:18.731995 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 339}
+2024-05-03 06:08:57.729877 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 340}
+2024-05-03 06:09:36.579923 {'type': 'pvflow', 'p': 3, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p3', 'expect_duration': 1.158, 'step_num': 341}
+2024-05-03 06:10:47.575905 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.658, 'step_num': 342}
+2024-05-03 06:11:28.533439 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 343}
+2024-05-03 06:15:31.871271 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 344}
+2024-05-03 06:16:05.192698 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 345}
+2024-05-03 06:20:08.518953 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 346}
+2024-05-03 06:20:47.540661 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 347}
+2024-05-03 06:21:26.614052 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 23', 'expect_duration': 0, 'step_num': 348}
+2024-05-03 06:21:26.722304 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 349}
+2024-05-03 06:21:57.591556 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 350}
+2024-05-03 06:23:34.662435 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 351}
+2024-05-03 06:26:38.000087 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 352}
+2024-05-03 06:27:39.568955 {'type': 'pvflow', 'p': 4, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p4', 'expect_duration': 0.775, 'step_num': 353}
+2024-05-03 06:28:27.594677 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p4', 'expect_duration': 1.1, 'step_num': 354}
+2024-05-03 06:29:34.929634 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.492, 'step_num': 355}
+2024-05-03 06:31:05.843949 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 356}
+2024-05-03 06:32:34.854130 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 357}
+2024-05-03 06:33:46.730143 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 358}
+2024-05-03 06:34:26.636266 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 359}
+2024-05-03 06:38:29.968341 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 360}
+2024-05-03 06:39:03.302906 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 361}
+2024-05-03 06:43:06.627502 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 362}
+2024-05-03 06:43:45.714353 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 363}
+2024-05-03 06:44:24.783955 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 364}
+2024-05-03 06:45:36.787390 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 24', 'expect_duration': 0, 'step_num': 365}
+2024-05-03 06:45:36.895488 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 366}
+2024-05-03 06:46:16.966941 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 367}
+2024-05-03 06:50:20.645799 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 368}
+2024-05-03 06:50:53.975892 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 369}
+2024-05-03 06:54:57.306228 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 370}
+2024-05-03 06:55:36.293072 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 371}
+2024-05-03 06:56:15.174162 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 372}
+2024-05-03 06:57:27.051125 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 373}
+2024-05-03 06:58:06.922217 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 374}
+2024-05-03 07:02:10.246623 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 375}
+2024-05-03 07:02:43.570016 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 376}
+2024-05-03 07:06:46.907564 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 377}
+2024-05-03 07:07:25.822492 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 378}
+2024-05-03 07:08:04.815077 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 379}
+2024-05-03 07:09:16.672385 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 25', 'expect_duration': 0, 'step_num': 380}
+2024-05-03 07:09:16.779238 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 381}
+2024-05-03 07:09:56.658133 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 382}
+2024-05-03 07:13:59.980723 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 383}
+2024-05-03 07:14:33.296440 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 384}
+2024-05-03 07:18:36.621351 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 385}
+2024-05-03 07:19:15.841246 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 386}
+2024-05-03 07:19:54.695387 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 387}
+2024-05-03 07:21:06.557253 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 388}
+2024-05-03 07:21:46.416485 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 389}
+2024-05-03 07:25:49.748910 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 390}
+2024-05-03 07:26:23.184385 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 391}
+2024-05-03 07:30:26.512610 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 392}
+2024-05-03 07:31:05.745875 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 393}
+2024-05-03 07:31:44.616686 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 26', 'expect_duration': 0, 'step_num': 394}
+2024-05-03 07:31:44.723696 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 395}
+2024-05-03 07:32:15.597604 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 396}
+2024-05-03 07:33:52.747366 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 397}
+2024-05-03 07:36:56.437872 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 398}
+2024-05-03 07:37:57.914744 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 399}
+2024-05-03 07:39:09.782434 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 400}
+2024-05-03 07:39:49.646749 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 401}
+2024-05-03 07:43:52.979607 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 402}
+2024-05-03 07:44:26.310850 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 403}
+2024-05-03 07:48:29.648691 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 404}
+2024-05-03 07:49:08.746597 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 405}
+2024-05-03 07:49:47.739629 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 406}
+2024-05-03 07:50:59.599755 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 27', 'expect_duration': 0, 'step_num': 407}
+2024-05-03 07:50:59.707378 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 408}
+2024-05-03 07:51:39.587978 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 409}
+2024-05-03 07:55:42.924913 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 410}
+2024-05-03 07:56:16.244314 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 411}
+2024-05-03 08:00:19.567110 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 412}
+2024-05-03 08:00:58.564302 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 413}
+2024-05-03 08:01:37.635467 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 414}
+2024-05-03 08:02:49.707283 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 415}
+2024-05-03 08:03:29.587958 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 416}
+2024-05-03 08:07:32.916194 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 417}
+2024-05-03 08:08:06.240390 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 418}
+2024-05-03 08:12:09.570545 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 419}
+2024-05-03 08:12:48.630746 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 420}
+2024-05-03 08:13:27.691601 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 421}
+2024-05-03 08:14:39.541017 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 28', 'expect_duration': 0, 'step_num': 422}
+2024-05-03 08:14:39.648899 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 423}
+2024-05-03 08:15:19.526804 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 424}
+2024-05-03 08:19:22.864413 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 425}
+2024-05-03 08:19:56.204605 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 426}
+2024-05-03 08:23:59.528676 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 427}
+2024-05-03 08:24:38.574321 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 428}
+2024-05-03 08:25:17.582475 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 429}
+2024-05-03 08:26:29.456961 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 430}
+2024-05-03 08:27:09.343509 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 431}
+2024-05-03 08:31:12.667995 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 432}
+2024-05-03 08:31:45.995393 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 433}
+2024-05-03 08:35:49.414694 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 434}
+2024-05-03 08:36:28.407894 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 435}
+2024-05-03 08:37:07.376793 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 29', 'expect_duration': 0, 'step_num': 436}
+2024-05-03 08:37:07.483860 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 437}
+2024-05-03 08:37:38.592156 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 438}
+2024-05-03 08:39:15.579768 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 439}
+2024-05-03 08:42:19.161210 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 440}
+2024-05-03 08:43:20.752635 {'type': 'pvflow', 'p': 4, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p4', 'expect_duration': 0.775, 'step_num': 441}
+2024-05-03 08:44:08.905916 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p4', 'expect_duration': 1.1, 'step_num': 442}
+2024-05-03 08:45:16.232326 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.492, 'step_num': 443}
+2024-05-03 08:46:47.120733 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 444}
+2024-05-03 08:48:16.114830 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 445}
+2024-05-03 08:49:27.991085 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 446}
+2024-05-03 08:50:07.869902 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 447}
+2024-05-03 08:54:11.200842 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 448}
+2024-05-03 08:54:44.529501 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 449}
+2024-05-03 08:58:47.855525 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 450}
+2024-05-03 08:59:27.047636 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 451}
+2024-05-03 09:00:05.912292 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 452}
+2024-05-03 09:01:17.783331 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 30', 'expect_duration': 0, 'step_num': 453}
+2024-05-03 09:01:17.890428 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 454}
+2024-05-03 09:01:57.804856 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 455}
+2024-05-03 09:06:01.142654 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 456}
+2024-05-03 09:06:34.461685 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 457}
+2024-05-03 09:10:37.791627 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 458}
+2024-05-03 09:11:16.675875 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 459}
+2024-05-03 09:11:55.752006 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 460}
+2024-05-03 09:13:07.623159 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 461}
+2024-05-03 09:13:47.496234 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 462}
+2024-05-03 09:17:50.832513 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 463}
+2024-05-03 09:18:24.163859 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 464}
+2024-05-03 09:22:27.500812 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 465}
+2024-05-03 09:23:06.568971 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 466}
+2024-05-03 09:23:45.437207 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 467}
+2024-05-03 09:24:57.304344 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 31', 'expect_duration': 0, 'step_num': 468}
+2024-05-03 09:24:57.410665 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 469}
+2024-05-03 09:25:37.305885 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 470}
+2024-05-03 09:29:40.769614 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 471}
+2024-05-03 09:30:14.089475 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 472}
+2024-05-03 09:34:17.421679 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 473}
+2024-05-03 09:34:56.306697 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 474}
+2024-05-03 09:35:35.395233 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 475}
+2024-05-03 09:36:47.260794 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 476}
+2024-05-03 09:37:27.139924 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 477}
+2024-05-03 09:41:30.525073 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 478}
+2024-05-03 09:42:03.854969 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 479}
+2024-05-03 09:46:07.233190 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 480}
+2024-05-03 09:46:46.209823 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 481}
+2024-05-03 09:47:25.063367 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 32', 'expect_duration': 0, 'step_num': 482}
+2024-05-03 09:47:25.170666 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 483}
+2024-05-03 09:47:56.202616 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 484}
+2024-05-03 09:49:33.163974 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 485}
+2024-05-03 09:52:36.857359 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 486}
+2024-05-03 09:53:38.517793 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 487}
+2024-05-03 09:54:50.382887 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 488}
+2024-05-03 09:55:30.372659 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 489}
+2024-05-03 09:59:33.793885 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 490}
+2024-05-03 10:00:07.211613 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 491}
+2024-05-03 10:04:10.545191 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 492}
+2024-05-03 10:04:49.421661 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 493}
+2024-05-03 10:05:28.442430 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 494}
+2024-05-03 10:06:40.313007 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 33', 'expect_duration': 0, 'step_num': 495}
+2024-05-03 10:06:40.420130 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 496}
+2024-05-03 10:07:20.287226 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 497}
+2024-05-03 10:11:23.615345 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 498}
+2024-05-03 10:11:56.949590 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 499}
+2024-05-03 10:16:00.286282 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 500}
+2024-05-03 10:16:39.326332 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 501}
+2024-05-03 10:17:18.385199 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 502}
+2024-05-03 10:18:30.260693 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 503}
+2024-05-03 10:19:10.120467 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 504}
+2024-05-03 10:23:13.452126 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 505}
+2024-05-03 10:23:46.786434 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 506}
+2024-05-03 10:27:50.119048 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 507}
+2024-05-03 10:28:29.243210 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 508}
+2024-05-03 10:29:08.273247 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 509}
+2024-05-03 10:30:20.264544 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 34', 'expect_duration': 0, 'step_num': 510}
+2024-05-03 10:30:20.371785 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 511}
+2024-05-03 10:31:00.282244 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 512}
+2024-05-03 10:35:03.740266 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 513}
+2024-05-03 10:35:37.060546 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 514}
+2024-05-03 10:39:40.398749 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 515}
+2024-05-03 10:40:19.248663 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 516}
+2024-05-03 10:40:58.324367 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 517}
+2024-05-03 10:42:10.193854 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 518}
+2024-05-03 10:42:50.068549 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 519}
+2024-05-03 10:46:53.401990 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 520}
+2024-05-03 10:47:26.729713 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 521}
+2024-05-03 10:51:30.149461 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 522}
+2024-05-03 10:52:09.129750 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 523}
+2024-05-03 10:52:47.982132 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 35', 'expect_duration': 0, 'step_num': 524}
+2024-05-03 10:52:48.089842 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 525}
+2024-05-03 10:53:18.971956 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 526}
+2024-05-03 10:54:56.064108 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 527}
+2024-05-03 10:57:59.753336 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 528}
+2024-05-03 10:59:01.212591 {'type': 'pvflow', 'p': 4, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p4', 'expect_duration': 0.775, 'step_num': 529}
+2024-05-03 10:59:49.249812 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p4', 'expect_duration': 1.1, 'step_num': 530}
+2024-05-03 11:00:56.707332 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.492, 'step_num': 531}
+2024-05-03 11:02:27.612751 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 532}
+2024-05-03 11:03:56.597858 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 533}
+2024-05-03 11:05:08.461112 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 534}
+2024-05-03 11:05:48.343102 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 535}
+2024-05-03 11:09:51.672756 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 536}
+2024-05-03 11:10:25.216758 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 537}
+2024-05-03 11:14:28.672331 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 538}
+2024-05-03 11:15:07.543614 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 539}
+2024-05-03 11:15:46.612363 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 540}
+2024-05-03 11:16:58.488790 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 36', 'expect_duration': 0, 'step_num': 541}
+2024-05-03 11:16:58.595956 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 542}
+2024-05-03 11:17:38.480542 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 543}
+2024-05-03 11:21:41.804991 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 544}
+2024-05-03 11:22:15.135634 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 545}
+2024-05-03 11:26:18.463782 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 546}
+2024-05-03 11:26:57.522784 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 547}
+2024-05-03 11:27:36.649468 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 548}
+2024-05-03 11:28:48.655794 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 549}
+2024-05-03 11:29:28.559868 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 550}
+2024-05-03 11:33:32.118540 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 551}
+2024-05-03 11:34:05.439290 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 552}
+2024-05-03 11:38:08.773480 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 553}
+2024-05-03 11:38:47.702182 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 554}
+2024-05-03 11:39:26.687471 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 555}
+2024-05-03 11:40:38.534196 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 37', 'expect_duration': 0, 'step_num': 556}
+2024-05-03 11:40:38.641046 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 557}
+2024-05-03 11:41:18.501021 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 558}
+2024-05-03 11:45:21.832433 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 559}
+2024-05-03 11:45:55.161433 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 560}
+2024-05-03 11:49:58.498988 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 561}
+2024-05-03 11:50:37.525973 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 562}
+2024-05-03 11:51:16.614787 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 563}
+2024-05-03 11:52:28.495762 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 564}
+2024-05-03 11:53:08.376393 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 565}
+2024-05-03 11:57:11.785925 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 566}
+2024-05-03 11:57:45.214184 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 567}
+2024-05-03 12:01:48.903402 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 568}
+2024-05-03 12:02:27.871214 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 569}
+2024-05-03 12:03:06.739964 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 38', 'expect_duration': 0, 'step_num': 570}
+2024-05-03 12:03:06.846798 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 571}
+2024-05-03 12:03:37.895438 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 572}
+2024-05-03 12:05:14.817752 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 573}
+2024-05-03 12:08:18.495014 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 574}
+2024-05-03 12:09:19.942946 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 575}
+2024-05-03 12:10:31.811119 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 576}
+2024-05-03 12:11:11.661534 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 577}
+2024-05-03 12:15:14.992200 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 578}
+2024-05-03 12:15:48.549425 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 579}
+2024-05-03 12:19:51.876773 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 580}
+2024-05-03 12:20:30.990460 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 581}
+2024-05-03 12:21:09.999204 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 582}
+2024-05-03 12:22:21.873265 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 39', 'expect_duration': 0, 'step_num': 583}
+2024-05-03 12:22:21.980163 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 584}
+2024-05-03 12:23:01.852199 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 585}
+2024-05-03 12:27:05.199106 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 586}
+2024-05-03 12:27:38.906795 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 587}
+2024-05-03 12:31:42.230230 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 588}
+2024-05-03 12:32:21.120590 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 589}
+2024-05-03 12:33:00.133726 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 590}
+2024-05-03 12:34:12.004691 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 591}
+2024-05-03 12:34:51.864104 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 592}
+2024-05-03 12:38:55.292576 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 593}
+2024-05-03 12:39:28.968832 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 594}
+2024-05-03 12:43:32.290785 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 595}
+2024-05-03 12:44:11.163516 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 596}
+2024-05-03 12:44:50.032166 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 597}
+2024-05-03 12:46:01.908424 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 40', 'expect_duration': 0, 'step_num': 598}
+2024-05-03 12:46:02.015838 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 599}
+2024-05-03 12:46:41.891039 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 600}
+2024-05-03 12:50:45.295990 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 601}
+2024-05-03 12:51:18.794937 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 602}
+2024-05-03 12:55:22.330324 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 603}
+2024-05-03 12:56:01.197535 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 604}
+2024-05-03 12:56:40.300474 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 605}
+2024-05-03 12:57:52.276286 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 606}
+2024-05-03 12:58:32.132253 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 607}
+2024-05-03 13:02:35.462102 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 608}
+2024-05-03 13:03:08.795217 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 609}
+2024-05-03 13:07:12.126252 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 610}
+2024-05-03 13:07:50.998117 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 611}
+2024-05-03 13:08:30.072995 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 41', 'expect_duration': 0, 'step_num': 612}
+2024-05-03 13:08:30.181099 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 613}
+2024-05-03 13:09:01.273783 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 614}
+2024-05-03 13:10:38.109909 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 615}
+2024-05-03 13:13:41.437175 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 616}
+2024-05-03 13:14:42.890983 {'type': 'pvflow', 'p': 4, 'r': 500, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 1/4, pulse p4', 'expect_duration': 0.775, 'step_num': 617}
+2024-05-03 13:15:30.756826 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 2/4, withdraw p4', 'expect_duration': 1.1, 'step_num': 618}
+2024-05-03 13:16:38.462816 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 800, 'd': 'Infuse', 'post_wait': 6, 'status': 'prime port, 3/4, waste p7', 'expect_duration': 1.492, 'step_num': 619}
+2024-05-03 13:18:09.318148 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 800, 'd': 'Withdraw', 'post_wait': 6, 'status': 'prime port, 4/4, buffer p8', 'expect_duration': 1.458, 'step_num': 620}
+2024-05-03 13:19:38.294141 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 621}
+2024-05-03 13:20:50.166508 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 622}
+2024-05-03 13:21:30.156946 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 623}
+2024-05-03 13:25:33.495936 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 624}
+2024-05-03 13:26:06.817058 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 625}
+2024-05-03 13:30:10.146982 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 626}
+2024-05-03 13:30:49.127940 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 627}
+2024-05-03 13:31:28.010029 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 628}
+2024-05-03 13:32:39.859178 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 42', 'expect_duration': 0, 'step_num': 629}
+2024-05-03 13:32:39.966428 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 630}
+2024-05-03 13:33:19.845963 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 631}
+2024-05-03 13:37:23.181761 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 632}
+2024-05-03 13:37:56.507661 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 633}
+2024-05-03 13:41:59.837776 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 634}
+2024-05-03 13:42:38.857231 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 635}
+2024-05-03 13:43:17.870184 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 636}
+2024-05-03 13:44:29.737753 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 637}
+2024-05-03 13:45:09.617857 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 638}
+2024-05-03 13:49:12.951388 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 639}
+2024-05-03 13:49:46.278006 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 640}
+2024-05-03 13:53:49.610572 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 641}
+2024-05-03 13:54:28.482810 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 642}
+2024-05-03 13:55:07.558887 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 643}
+2024-05-03 13:56:19.419145 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 43', 'expect_duration': 0, 'step_num': 644}
+2024-05-03 13:56:19.526778 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 645}
+2024-05-03 13:56:59.398145 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 646}
+2024-05-03 14:01:02.722660 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 647}
+2024-05-03 14:01:36.058805 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 648}
+2024-05-03 14:05:39.386144 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 649}
+2024-05-03 14:06:18.532244 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 650}
+2024-05-03 14:06:57.382748 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 651}
+2024-05-03 14:08:09.238565 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 652}
+2024-05-03 14:08:49.213543 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 653}
+2024-05-03 14:12:52.789825 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 654}
+2024-05-03 14:13:26.125885 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 655}
+2024-05-03 14:17:29.460130 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 656}
+2024-05-03 14:18:08.539092 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 657}
+2024-05-03 14:18:47.434123 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 44', 'expect_duration': 0, 'step_num': 658}
+2024-05-03 14:18:47.541784 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 659}
+2024-05-03 14:19:18.402247 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 660}
+2024-05-03 14:20:55.597967 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 661}
+2024-05-03 14:23:59.273123 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 662}
+2024-05-03 14:25:00.744369 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 663}
+2024-05-03 14:26:12.630861 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 664}
+2024-05-03 14:26:52.499887 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 665}
+2024-05-03 14:30:55.834054 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 666}
+2024-05-03 14:31:29.169994 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 667}
+2024-05-03 14:35:32.494485 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 668}
+2024-05-03 14:36:11.593028 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 669}
+2024-05-03 14:36:50.562988 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 670}
+2024-05-03 14:38:02.425361 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 45', 'expect_duration': 0, 'step_num': 671}
+2024-05-03 14:38:02.532969 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 672}
+2024-05-03 14:38:42.392542 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 673}
+2024-05-03 14:42:45.729260 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 674}
+2024-05-03 14:43:19.047239 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 675}
+2024-05-03 14:47:22.374024 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 676}
+2024-05-03 14:48:01.413044 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 677}
+2024-05-03 14:48:40.496558 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 678}
+2024-05-03 14:49:52.372457 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 679}
+2024-05-03 14:50:32.260534 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 680}
+2024-05-03 14:54:35.580950 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 681}
+2024-05-03 14:55:08.905335 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 682}
+2024-05-03 14:59:12.235283 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 683}
+2024-05-03 14:59:51.209437 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 684}
+2024-05-03 15:00:30.290854 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 685}
+2024-05-03 15:01:42.165243 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com', 'message': 'imaging_ready 46', 'expect_duration': 0, 'step_num': 686}
+2024-05-03 15:01:42.273975 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': 'PREIMAGING,1p inject flow, 2/7 pulse to device p6', 'expect_duration': 0.642, 'step_num': 687}
+2024-05-03 15:02:22.134586 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING,1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 688}
+2024-05-03 15:06:25.467908 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 689}
+2024-05-03 15:06:58.794935 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': 'POSTIMAGING,1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 690}
+2024-05-03 15:11:00.765501 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 691}
+2024-05-03 15:11:39.755416 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': 'POSTIMAGING,1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 692}
+2024-05-03 15:12:18.872404 {'type': 'pvflow', 'p': 4, 'r': 300, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 1/7, wdr p4', 'expect_duration': 1.175, 'step_num': 693}
+2024-05-03 15:13:30.862148 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 2/7, pulse dev p6', 'expect_duration': 0.642, 'step_num': 694}
+2024-05-03 15:14:10.782257 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 3/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 695}
+2024-05-03 15:18:14.353353 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 100, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 4/7, pulse dev p6', 'expect_duration': 0.533, 'step_num': 696}
+2024-05-03 15:18:47.790265 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 48, 'd': 'Infuse', 'post_wait': 2, 'status': '1p inject flow, 5/7, flow dev p6', 'expect_duration': 4.033, 'step_num': 697}
+2024-05-03 15:22:51.114802 {'type': 'pvflow', 'p': 7, 'r': 600, 'v': 300, 'd': 'Infuse', 'post_wait': 6, 'status': '1p inject flow, 6/7, waste p7', 'expect_duration': 0.625, 'step_num': 698}
+2024-05-03 15:23:29.975161 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 300, 'd': 'Withdraw', 'post_wait': 6, 'status': '1p inject flow, 7/7, buffer p8', 'expect_duration': 0.625, 'step_num': 699}
+2024-05-03 15:24:08.966617 {'type': 'notify', 'com_file': 'C:\\Users\\LevineLab\\Documents\\Repos\\PumpValveSystem\\pump_coms\\jupyter_com_pumps', 'message': 'imaging_ready 47', 'expect_duration': 0, 'step_num': 700}
+2024-05-03 15:24:09.074142 {'type': 'pvflow', 'p': 5, 'r': 600, 'v': 200, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 1/4, waste p6', 'expect_duration': 0.492, 'step_num': 701}
+2024-05-03 15:24:40.004798 {'type': 'pvflow', 'p': 6, 'r': 200, 'v': 300, 'd': 'Infuse', 'post_wait': 4, 'status': 'PREIMAGING, wash chip, 2/4, pulse wash chip p6', 'expect_duration': 1.592, 'step_num': 702}
+2024-05-03 15:26:16.983270 {'type': 'pvflow', 'p': 6, 'r': 12, 'v': 36, 'd': 'Infuse', 'post_wait': 2, 'status': 'IMAGING, wash chip, 3/4, flow wash chip p6', 'expect_duration': 3.033, 'step_num': 703}
+2024-05-03 15:29:20.313248 {'type': 'pvflow', 'p': 8, 'r': 600, 'v': 536, 'd': 'Withdraw', 'post_wait': 4, 'status': 'wash chip, 4/4, refill buffer p8', 'expect_duration': 1.002, 'step_num': 704}

@@ -42,7 +42,13 @@ class Valve:
                 self.lock.acquire()
             _ = self.ls4vm.CmdSelect(self.channel, port)
             print('valv_rot wait')
-            time.sleep(4)
+            #port_delta = port - self.current_port
+            if self.current_port is None:
+                time.sleep(8)
+            elif self.current_port < port:
+                time.sleep(int(port - self.current_port)+0.5)
+            else:
+                time.sleep(int(8- (self.current_port - port))+0.5)
 
             if self.lock is not None:
                 self.lock.release()

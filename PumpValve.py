@@ -54,6 +54,14 @@ class PumpValve:
         self.phaseTargetDispense = float(self.pump.getDispensed(units = False))+vol
         self.runPumpPhase(rat,vol,direction)
 
+    def RunAtPort_prog_phase(self,step_dict):
+        """moves valve to the input port and sends a single phase program to pump"""
+        self.current_phase = {'s_num':step_dict['step_num'],'p':step_dict['p'],'r':step_dict['r'],'v':step_dict['v'],
+                              'd':step_dict['d'],'dur':step_dict['expect_duration'], 'info':step_dict['status']}
+        self.moveToPort(step_dict['p'])
+        self.phaseTargetDispense = float(self.pump.getDispensed(units = False))+step_dict['v']
+        self.runPumpPhase(step_dict['r'],step_dict['v'],step_dict['d'])
+
     def runSequence(self, seq_dict, entry_params = None):#port = None, dir = None, vol = None, rat = None):
         """Runs program for the pump valve unit,
         Takes in the program dictionary,

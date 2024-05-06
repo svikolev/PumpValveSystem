@@ -1837,20 +1837,27 @@ def prog_from_json1(PV,params):
                 file.write('{} notify_step: {}\n'.format(datetime.datetime.now(),step_dict['message']))
 
         elif step_dict['type'] == 'pvflow':
-            _PV.moveToPort(port = step_dict['p'])
-            _PV.thread_kill.wait(timeout=5)
-            _PV.RunAtPort(port = step_dict['p'], rat = step_dict['r'], vol = step_dict['v'], direction = step_dict['d'])
-            expect_time = math.ceil(int(step_dict['v']) / int(step_dict['r']) * 60) +int(step_dict['post_wait'])
+            #_PV.moveToPort(port = step_dict['p'])
+            #_PV.thread_kill.wait(timeout=5)
+            _PV.RunAtPort_prog_phase(step_dict)
+            #_PV.RunAtPort(port = step_dict['p'], rat = step_dict['r'], vol = step_dict['v'], direction = step_dict['d'])
+            #expect_time = float(step_dict['expect_duration'])*60
+            #expect_time = math.ceil(int(step_dict['v']) / int(step_dict['r']) * 60) +int(step_dict['post_wait'])
+            expect_time = round((step_dict['v'] / step_dict['r'])*60 + step_dict['post_wait'], 3)
+            print('expect_time (s)',expect_time)
             _PV.thread_kill.wait(timeout=expect_time)
 
         if _PV.thread_kill.is_set():
             print("killing thread inner")
             return False
+        #print('expect time done:', datetime.datetime.now())
         pump_Running = True
         while pump_Running:
             status = _PV.pump.getStatus()
             if status == 'halted':
                 pump_Running = False
+
+        print('pump done:', datetime.datetime.now())
         return True
 
     def runSeqScript(_PV,seq_list):
