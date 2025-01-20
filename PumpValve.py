@@ -17,7 +17,12 @@ class PumpValve:
         self.seq_dict = None
         self.current_phase = "not running seq"
         self.phaseTargetDispense = 0
+        self.size = 10  # default 10 ml
         print(f'called init pv {pvADR}')
+
+    def set_size(self,size):
+        self.size = size
+        self.pump.set_size(size)
 
     def get_pump_obj(self):
         return self.pump
@@ -94,7 +99,7 @@ class PumpValve:
                         d = entry_params["dir"]
                     else: d = phase["dir"]
                     _self.RunAtPort(p, r, v, d)
-                    expect_time = int(int(v) / (int(r) / 60))+4
+                    expect_time = int(int(v) / (int(r) / 60))+4 +8
                     _self.thread_kill.wait(timeout = expect_time)
                     if _self.thread_kill.is_set():
                         print("killing thread inner")

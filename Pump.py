@@ -127,6 +127,9 @@ class Pump(object):
         self._lock = lock
         self._check_lock = lock is not None
         self._direction = None
+        self._size = 10
+        self._syringe_sizes = {"1": 4.78,"3": 8.66,"5": 12.07,"10": 14.5,"20": 19.13,"30": 21.69,"60":29.0}
+
         if 'rate' in config:
             self._rate = config['rate']
         else:
@@ -306,6 +309,12 @@ class Pump(object):
             if self._ser.is_open:
                 self._ser.close()
             return # Don't reraise error conditions, just quit silently     b b
+
+    def set_size(self,size):
+        self._size = size
+        self._diameter = self._syringe_sizes[str(size)]
+        self._write_read('DIA ' + str(self._diameter))
+        print('changed size')
     def run(self):
         ''' Starts the pump. '''
         self._write_read('RUN')

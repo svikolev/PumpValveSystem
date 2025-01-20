@@ -398,9 +398,9 @@ def op50(PV,params):
         for hour in range(params['hours']):
             flag = True
             i = 0
-            while flag and i < 20:
-                flag = RunAtPort_threadCheck(_PV, p=6, r=75, v=75, d='Infuse') and \
-                       RunAtPort_threadCheck(_PV, p=6, r=5, v=100, d='Infuse')
+            while flag and i < 100:
+                flag = RunAtPort_threadCheck(_PV, p=1, r=50, v=50, d='Infuse') and \
+                       RunAtPort_threadCheck(_PV, p=1, r=5, v=40, d='Infuse')
 
                 i += 1
             if _PV.thread_kill.is_set():
@@ -1659,7 +1659,7 @@ def no_valve_1d_p1(PV,params):
         for hour in range(params['hours']):
             flag = True
             i = 0
-            while flag and i < 10:
+            while flag and i < 10*6:
                 flag = RunAtPort_threadCheck(_PV, p=1, r=60, v=60, d='Infuse') and \
                        RunAtPort_threadCheck(_PV, p=1, r=5, v=25, d='Infuse')
 
@@ -1763,6 +1763,7 @@ def jub39_r_switch_g(PV,params):
     PV.thread_kill = threading.Event()
     PV.k = threading.Thread(target=runSeqScript, args=(PV, params))
     PV.k.start()
+
 
 def prog_from_json1(PV,params):
 

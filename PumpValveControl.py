@@ -61,7 +61,7 @@ class PumpValveControl(QtWidgets.QWidget):
         grid.addWidget(QtWidgets.QLabel('Program'),2,1)
         grid.addWidget(QtWidgets.QLabel('Valve Port'),2,2)
         grid.addWidget(QtWidgets.QLabel('Direction'), 2, 3)
-        grid.addWidget(QtWidgets.QLabel('Contents'),2,4)
+        grid.addWidget(QtWidgets.QLabel('Size'),2,4)
         grid.addWidget(QtWidgets.QLabel('Volume ul'),2,5)
         grid.addWidget(QtWidgets.QLabel('Flow rate ul/min'), 2, 6)
         grid.addWidget(QtWidgets.QLabel('Cur rate ul/min'),2,7)
@@ -71,12 +71,14 @@ class PumpValveControl(QtWidgets.QWidget):
         # interate over pumps, adding a row for each
         self.mapper = QtCore.QSignalMapper(self) # programs
         self.portmapper = QtCore.QSignalMapper(self) # ports
+        self.sizemapper = QtCore.QSignalMapper(self) # syringe size
         self.dirmapper = QtCore.QSignalMapper(self) # direction
         self.runmapper = QtCore.QSignalMapper(self)   # run program
         self.runmanmapper = QtCore.QSignalMapper(self) # run manual
         self.stopmapper = QtCore.QSignalMapper(self) # stop
         self.dir_pulldown = []
         self.ports_pulldown = []
+        self.size_pulldown = []
         self.currflow = []
         self.voldis = []
         self.vol = []
@@ -91,6 +93,7 @@ class PumpValveControl(QtWidgets.QWidget):
         self._prog = list(range(len(self._pv_units))) #changed to pv unit
         self._port = list(range(len(self._pv_units))) #changed to pv unit
         self._dir = list(range(len(self._pv_units))) #changed to pv unit
+        self._size = list(range(len(self._pv_units))) #changed to pv unit
 
         self._pump_lock = threading.Lock()
         self._valve_lock = threading.Lock()
@@ -142,6 +145,16 @@ class PumpValveControl(QtWidgets.QWidget):
             grid.addWidget(combo_port, row, 2)
             self.set_port(i)
 
+            # add size pulldown
+            combo_size = QtWidgets.QComboBox(self)
+            for s in [1,3,5,10,20,30,60]:
+                combo_size.addItem(str(s))
+            self.size_pulldown.append(combo_size)
+            self.sizemapper.setMapping(combo_size, i)
+            combo_size.activated.connect(self.sizemapper.map)
+            grid.addWidget(combo_size, row, 4)
+            self.set_size(i)
+
             # add direction pulldown
             combo_dir = QtWidgets.QComboBox(self)
             combo_dir.addItem('Infuse')
@@ -153,7 +166,7 @@ class PumpValveControl(QtWidgets.QWidget):
             self.set_dir(i)
 
             # add textbox to put syring contents
-            grid.addWidget(QtWidgets.QLineEdit(),row,4)
+            #grid.addWidget(QtWidgets.QLineEdit(),row,4)
 
             self.vol.append(QtWidgets.QLineEdit(self))
             grid.addWidget(self.vol[i],row,5)
@@ -210,6 +223,7 @@ class PumpValveControl(QtWidgets.QWidget):
         # mapper thing
         self.mapper.mapped.connect(self.set_program)
         self.portmapper.mapped.connect(self.set_port)
+        self.sizemapper.mapped.connect(self.set_size)
         self.dirmapper.mapped.connect(self.set_dir)
         self.runmapper.mapped.connect(self.run_pump_prog)
         self.runmanmapper.mapped.connect(self.run_pump_manual)
@@ -267,6 +281,11 @@ class PumpValveControl(QtWidgets.QWidget):
     def set_port(self,i):
         self._port[i] = self.portmapper.mapping(i).currentText()
         self._pv_units[i].moveToPort(int(self._port[i]))
+
+    def set_size(self,i):
+        self._size[i] = self.sizemapper.mapping(i).currentText()
+        self._pv_units[i].set_size(int(self._size[i]))
+
     def set_dir(self, i):
         self._dir[i] = self.dirmapper.mapping(i).currentText()
         self._pv_units[i].get_pump_obj().setDirection(self._dir[i]) ## changed to pump_valve, after adding pumpvalve.set_dir
@@ -275,7 +294,7 @@ class PumpValveControl(QtWidgets.QWidget):
         self._vol[i] = self.mappervol.mapping(i).currentText()
 
     def run_pump_prog(self, i):
-        #Todo: maine todo is basically rewrite this
+        #Todo: main todo is basically rewrite this
 
         # temporary thing. this thing should actually run the program
         # still need to add check if volume written
