@@ -122,6 +122,10 @@
     "type" : "python code",
      "Params" : {"hours" : 1}
   },
+   { "name":  "op50flow_p6_2dev",
+    "type" : "python code",
+     "Params" : {"hours" : 1}
+  },
    { "name":  "op50",
     "type" : "python code",
      "Params" : {"hours" : 1}
